@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sasha delly</title>
-    <description>Let&#39;s learn together. And when we die, at last, we would stop getting dumber.    
-</description>
-    <link>https://sashadelly.github.io//</link>
-    <atom:link href="https://sashadelly.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Mar 2016 21:33:23 +0000</pubDate>
-    <lastBuildDate>Thu, 17 Mar 2016 21:33:23 +0000</lastBuildDate>
+    <description></description>
+    <link>https://sdll.github.io//</link>
+    <atom:link href="https://sdll.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 18 Mar 2016 23:56:00 +0000</pubDate>
+    <lastBuildDate>Fri, 18 Mar 2016 23:56:00 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -59,8 +58,8 @@ EndSection
 
 </description>
         <pubDate>Sat, 02 Jan 2016 19:10:41 +0000</pubDate>
-        <link>https://sashadelly.github.io//sysadmin/2016/01/02/mtrack-arch-linux.html</link>
-        <guid isPermaLink="true">https://sashadelly.github.io//sysadmin/2016/01/02/mtrack-arch-linux.html</guid>
+        <link>https://sdll.github.io//blog/2016/01/02/mtrack-arch-linux/</link>
+        <guid isPermaLink="true">https://sdll.github.io//blog/2016/01/02/mtrack-arch-linux/</guid>
         
         
         <category>sysadmin</category>
@@ -130,8 +129,8 @@ pcm.dsp {
 &lt;p style=&quot;padding-left:30px;&quot;&gt;
 </description>
         <pubDate>Wed, 23 Dec 2015 16:32:19 +0000</pubDate>
-        <link>https://sashadelly.github.io//cs/2015/12/23/alsa-alsaequal-arch-linux.html</link>
-        <guid isPermaLink="true">https://sashadelly.github.io//cs/2015/12/23/alsa-alsaequal-arch-linux.html</guid>
+        <link>https://sdll.github.io//blog/2015/12/23/alsa-alsaequal-arch-linux/</link>
+        <guid isPermaLink="true">https://sdll.github.io//blog/2015/12/23/alsa-alsaequal-arch-linux/</guid>
         
         
         <category>cs</category>
@@ -208,8 +207,8 @@ Discreteness of energy levels in quantum systems imposes a limit on their time d
 &lt;/ol&gt;
 </description>
         <pubDate>Tue, 13 Oct 2015 19:50:28 +0000</pubDate>
-        <link>https://sashadelly.github.io//physics/2015/10/13/classical-chaos-and-quantum-chaology.html</link>
-        <guid isPermaLink="true">https://sashadelly.github.io//physics/2015/10/13/classical-chaos-and-quantum-chaology.html</guid>
+        <link>https://sdll.github.io//blog/2015/10/13/classical-chaos-and-quantum-chaology/</link>
+        <guid isPermaLink="true">https://sdll.github.io//blog/2015/10/13/classical-chaos-and-quantum-chaology/</guid>
         
         
         <category>physics</category>
@@ -357,8 +356,8 @@ Ionic compounds do not dissolve in non-polar solvents, since there are no electr
 &lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 09 Nov 2014 19:29:00 +0000</pubDate>
-        <link>https://sashadelly.github.io//chemistry/2014/11/09/chemical-bonding-and-physical-structures.html</link>
-        <guid isPermaLink="true">https://sashadelly.github.io//chemistry/2014/11/09/chemical-bonding-and-physical-structures.html</guid>
+        <link>https://sdll.github.io//blog/2014/11/09/chemical-bonding-and-physical-structures/</link>
+        <guid isPermaLink="true">https://sdll.github.io//blog/2014/11/09/chemical-bonding-and-physical-structures/</guid>
         
         
         <category>chemistry</category>
@@ -386,8 +385,8 @@ Ionic compounds do not dissolve in non-polar solvents, since there are no electr
 &lt;p&gt;&lt;i&gt;The article is based on the The Princeton Companion to Mathematics, PUB&lt;/i&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Aug 2014 20:50:00 +0000</pubDate>
-        <link>https://sashadelly.github.io//education/mathematics/2014/08/18/sir-michael-atiyah-on-doing-mathematics.html</link>
-        <guid isPermaLink="true">https://sashadelly.github.io//education/mathematics/2014/08/18/sir-michael-atiyah-on-doing-mathematics.html</guid>
+        <link>https://sdll.github.io//blog/2014/08/18/sir-michael-atiyah-on-doing-mathematics/</link>
+        <guid isPermaLink="true">https://sdll.github.io//blog/2014/08/18/sir-michael-atiyah-on-doing-mathematics/</guid>
         
         
         <category>education</category>
@@ -424,8 +423,8 @@ Ionic compounds do not dissolve in non-polar solvents, since there are no electr
 &lt;div class=&quot;addthis_sharing_toolbox&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Sun, 17 Aug 2014 21:38:00 +0000</pubDate>
-        <link>https://sashadelly.github.io//reading/2014/08/17/further-reading-on-the-number-system.html</link>
-        <guid isPermaLink="true">https://sashadelly.github.io//reading/2014/08/17/further-reading-on-the-number-system.html</guid>
+        <link>https://sdll.github.io//blog/2014/08/17/further-reading-on-the-number-system/</link>
+        <guid isPermaLink="true">https://sdll.github.io//blog/2014/08/17/further-reading-on-the-number-system/</guid>
         
         
         <category>reading</category>
@@ -457,8 +456,8 @@ Ionic compounds do not dissolve in non-polar solvents, since there are no electr
 &lt;div class=&quot;addthis_sharing_toolbox&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Sat, 16 Aug 2014 21:16:00 +0000</pubDate>
-        <link>https://sashadelly.github.io//reading/2014/08/16/further-reading-on-logic.html</link>
-        <guid isPermaLink="true">https://sashadelly.github.io//reading/2014/08/16/further-reading-on-logic.html</guid>
+        <link>https://sdll.github.io//blog/2014/08/16/further-reading-on-logic/</link>
+        <guid isPermaLink="true">https://sdll.github.io//blog/2014/08/16/further-reading-on-logic/</guid>
         
         
         <category>reading</category>

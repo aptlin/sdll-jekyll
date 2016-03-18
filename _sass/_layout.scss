@@ -1,8 +1,8 @@
 /**
  * Site header
  */
+
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -11,8 +11,10 @@
 }
 
 .site-title {
+    display: inline-block;
     font-size: 26px;
     font-weight: 300;
+    font-family:"Courier", monospace; 
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -23,11 +25,12 @@
         color: $grey-color-dark;
     }
 }
-
 .site-nav {
-    float: right;
+    margin-left: auto;
+    display:table;
     line-height: 56px;
-
+    font-family:"Courier", monospace;
+    font-size: 26px;
     .menu-icon {
         display: none;
     }
@@ -201,21 +204,26 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    
 }
 
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
-
+    font-family:"Courier",monospace;
     @include media-query($on-laptop) {
         font-size: 36px;
     }
 }
+.postlist {
+    font-family:"Courier",monospace!important;
+    font-size: 18px!important;
+    font-weight: 500;
+}
 
 .post-content {
     margin-bottom: $spacing-unit;
-
     h2 {
         font-size: 32px;
 
@@ -239,4 +247,32 @@
             font-size: 18px;
         }
     }
+}
+nav ul {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0px;
+}
+.header-nav {
+    text-align: right;
+}
+.main-navigation{
+list-style-type:none;
+
+}
+.sidenav {
+text-align: center;
+margin-left:auto;
+margin-right:auto;
+position: relative;
+display: table;
+line-height: 32px;
+list-style-type:none;
+font-family:"Courier", monospace;
+font-size: 18px;
+border-bottom: 1px solid $grey-color-light;
+}
+.sidenav li{
+display: inline;
 }
