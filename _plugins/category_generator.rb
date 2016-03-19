@@ -50,7 +50,8 @@ module Jekyll
 
   end
 
-  # The CategoryFeed class creates an Atom feed for the specified category.
+=begin
+# The CategoryFeed class creates an Atom feed for the specified category.
   class CategoryFeed < Page
 
     # Initializes a new CategoryFeed.
@@ -79,7 +80,7 @@ module Jekyll
     end
 
   end
-
+=end
   # The Site class is a built-in Jekyll class with access to global site config information.
   class Site
 
@@ -95,12 +96,6 @@ module Jekyll
       # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
       self.pages << index
 
-      # Create an Atom-feed for each index.
-      feed = CategoryFeed.new(self, self.source, category_dir, category)
-      feed.render(self.layouts, site_payload)
-      feed.write(self.dest)
-      # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
-      self.pages << feed
     end
 
     # Loops through the list of category pages and processes each one.
