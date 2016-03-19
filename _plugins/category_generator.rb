@@ -44,12 +44,12 @@ module Jekyll
       title_prefix             = site.config['category_title_prefix'] || 'Category: '
       self.data['title']       = "#{title_prefix}#{category}"
       # Set the meta-description for this page.
-      meta_description_prefix  = site.config['category_meta_description_prefix'] || 'category: '
+      meta_description_prefix  = site.config['category_meta_description_prefix'] || 'Category: '
       self.data['description'] = "#{meta_description_prefix}#{category}"
     end
 
   end
-=begin
+
  # The CategoryFeed class creates an Atom feed for the specified category.
   class CategoryFeed < Page
     # Initializes a new CategoryFeed.
@@ -78,7 +78,7 @@ module Jekyll
     end
 
   end
-=end
+
 
   # The Site class is a built-in Jekyll class with access to global site config information.
   class Site
