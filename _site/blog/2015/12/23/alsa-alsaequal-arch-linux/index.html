@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+  <!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>ALSA, ALSAEqual & Arch Linux - sasha delly</title>
+  <meta name="author" content="">
+
+  
+  <meta name="description" content="
+
+  
+  
+    
+      ALSA, ALSAEqual & Arch Linux
+    
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    in cs
+  
+
+
+
+        
+      
+    
+  
+
+
+Given:
+
+Arch Lin...">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="https://sdll.github.io//blog/2015/12/23/alsa-alsaequal-arch-linux/">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/css/main.css" media="screen, projection" rel="stylesheet" type="text/css">
+  
+  <link rel="alternate" type="application/rss+xml" title="sasha delly" href="https://sdll.github.io//feed.xml">
+</head>
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">sasha delly</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+ <ul class="main-navigation">
+	<li><a href="/about">/abovt</a></li>
+</ul>
+
+    </nav>
+
+  </div>
+
+</header>
+
+    <ul class="sidenav">
+
+    
+         <li> <a class="page-link" href="/about/">abovt</a></li>
+    
+
+    
+
+    
+
+    
+
+    
+         <li> <a class="page-link" href="/blog/categories/reading/">reading</a></li>
+    
+
+    
+         <li> <a class="page-link" href="/blog/categories/education/">education</a></li>
+    
+
+    
+         <li> <a class="page-link" href="/blog/categories/mathematics/">mathematics</a></li>
+    
+
+    
+         <li> <a class="page-link" href="/blog/categories/chemistry/">chemistry</a></li>
+    
+
+    
+         <li> <a class="page-link" href="/blog/categories/physics/">physics</a></li>
+    
+
+    
+         <li> <a class="page-link" href="/blog/categories/cs/">cs</a></li>
+    
+
+    
+         <li> <a class="page-link" href="/blog/categories/sysadmin/">sysadmin</a></li>
+    
+
+
+</ul>
+
+    
+<div class="page-content">
+      <div class="wrapper">
+        <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">ALSA, ALSAEqual & Arch Linux</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+
+<time datetime="2015-12-23T16:32:19+00:00" pubdate data-updated="true"></time>
+
+<span class="categories">
+  
+    in <a class='category' href='/blog/categories/cs/'>cs</a>
+  
+</span>
+
+
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Given:</p>
+<ul>
+<li>Arch Linux w/ 4.2.5-1-ARCH kernel</li>
+<li>Macbook Pro Late 2013</li>
+</ul>
+<p>Wanted:</p>
+<p style="padding-left:30px;">global sound settings compatible with all the applications installed</p>
+<p>Solution:</p>
+<p style="padding-left:30px;">Kernel-driven sound card drivers are provided by the ALSA framework, which has replaced the OSS. To learn more, consult the <a href="https://wiki.archlinux.org/index.php/ALSA">guide</a> on Arch Linux wiki I have found particularly helpful.</p>
+<p style="padding-left:30px;text-align:left;">First, install the <strong>alsa-utils</strong> package. By default, all the sound channels are initially muted. Manually unmute the channels by typing <strong>alsamixer </strong>command, choosing the required channels and pressing <strong>m</strong>.</p>
+<p style="padding-left:30px;">Secondly, check the ID of your sound card by typing the shell command <strong>aplay -l</strong>. The ID of my sound card was HDMI. Set the default sound card by creating the file at <strong>/etc/modprobe.d/alsa-base.conf </strong>:</p>
+<p style="padding-left:60px;">options snd_hda_intel index=0 model=intel-mac-auto id=PCH<br />
+options snd_hda_intel index=1 model=intel-mac-auto id=HDMI</p>
+<p style="padding-left:30px;">Thirdly, install <strong>alsa-oss </strong>to insure compatibility of the OSS applications with <strong>dmix</strong>. Then load the kernel modules by executing <strong>sudo modprobe snd-seq-oss snd-pcm-oss snd-mixer-oss .</strong></p>
+<p style="padding-left:30px;">Next, install the <strong>alsaequal</strong> package which provides the system equaliser. Edit the global ALSA configuration file located at /etc/asound.conf, replacing HDMI with your ID:</p>
+<pre>
+<code class="bash">
+pcm.!default {
+    type plug
+    slave.pcm {
+        @func getenv
+        vars [ ALSAPCM ]
+        default "hw:HDMI"
+    }
+}
+ctl.equal {
+    type equal;
+}
+
+pcm.plugequal {
+    type equal;
+    # Modify the line below if you do not
+    # want to use sound card 0.
+    #slave.pcm "plughw:0,0";
+    # by default we want to play from more sources at time:
+    slave.pcm "plug:dmix";
+}
+
+# pcm.equal {
+# If you do not want the equalizer to be your
+# default soundcard comment the following
+# line and uncomment the above line. (You can
+# choose it as the output device by addressing
+# it with specific apps,eg mpg123 -a equal 06.Back_In_Black.mp3)
+pcm.!default {
+    type plug;
+    slave.pcm plugequal;
+}
+
+pcm.dsp {
+    type plug
+    slave.pcm "dmix"
+}
+
+</code>
+</pre>
+<p style="padding-left:30px;">Finally, reboot and ensure the setup works by executing <strong>speaker-test</strong>.</p>
+<p>If everything is alright, congratulations! Otherwise, do not suffer alone; there are people happy to help!</p>
+<p style="padding-left:30px;">
+</div>
+
+
+  <footer>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/10/13/classical-chaos-and-quantum-chaology/" title="Previous Post: CLASSICAL CHAOS & QUANTUM CHAOLOGY">CLASSICAL CHAOS & QUANTUM CHAOLOGY</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2016/01/02/mtrack-arch-linux/" title="Next Post: mtrack & Arch Linux">mtrack & Arch Linux</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+<!--
+  <div class="wrapper">
+
+    <h2 class="footer-heading">sasha delly</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>sasha delly</li>
+          <li><a href="mailto:"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+-->
+
+</footer>
+
+
+  </body>
+
+</html>

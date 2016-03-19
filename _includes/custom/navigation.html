@@ -1,9 +1,0 @@
-<ul class="sidenav">
-{% for post in site.pages %}
-    {% if post.title != NULL %}
-         <li> <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endif %}
-{% endfor %}
-
-</ul>
-
