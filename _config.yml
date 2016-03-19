@@ -25,3 +25,4 @@ category_dir: blog/categories
 category_title_prefix: ''
 
 gems: [jekyll-paginate]
+safe: false
