@@ -23,7 +23,7 @@ pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 
 # Plugins
 plugins_dir: _plugins
-category_dir: /blog/categories
+category_dir: blog/categories
 category_title_prefix: ''
 
 gems: [jekyll-paginate]
