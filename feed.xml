@@ -5,18 +5,24 @@
     <description></description>
     <link>https://sdll.github.io//</link>
     <atom:link href="https://sdll.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Mar 2016 20:45:24 +0000</pubDate>
-    <lastBuildDate>Sat, 19 Mar 2016 20:45:24 +0000</lastBuildDate>
+    <pubDate>Sat, 19 Mar 2016 21:56:47 +0000</pubDate>
+    <lastBuildDate>Sat, 19 Mar 2016 21:56:47 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
         <title>mTRACK &amp; ARCH LINUX</title>
         <description>&lt;p&gt;The &lt;a href=&quot;https://github.com/BlueDragonX/xf86-input-mtrack&quot;&gt;mtrack driver&lt;/a&gt; provides multifacetous configurability and gestures support for multitouch touchpads.&lt;/p&gt;
+
 &lt;p&gt;In Arch, the driver can be installed from the AUR with yaourt:&lt;/p&gt;
+
 &lt;p id=&quot;850b&quot; class=&quot;graf--pre graf-after--p&quot;&gt;&lt;strong&gt;yaourt -S xf86-input-mtrack-git&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;Then set up your configuration file:&lt;/p&gt;
+
 &lt;p id=&quot;d6d9&quot; class=&quot;graf--pre graf-after--p&quot;&gt;&lt;strong&gt;sudo nano /etc/X11/xorg.conf.d/10-mtrack.conf&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p class=&quot;graf--pre graf-after--p&quot;&gt;The configuration I recommend is the following:&lt;/p&gt;
+
 &lt;pre&gt;
 &lt;code class=&quot;bash&quot;&gt;
 Section &quot;InputClass&quot;
@@ -51,18 +57,21 @@ Section &quot;InputClass&quot;
 EndSection
 &lt;/code&gt;
 &lt;/pre&gt;
-&lt;p class=&quot;graf--pre graf-after--p&quot;&gt;Change places of &lt;strong&gt;ScrollUpButton&lt;/strong&gt; and &lt;strong&gt;ScrollDownButton &lt;/strong&gt;to enable natural scrolling.&lt;/p&gt;
-&lt;p class=&quot;graf--pre graf-after--p&quot;&gt;Next, add the user of your choice to the &lt;strong&gt;input&lt;/strong&gt; group to give the permissions required for setting the input methods up:&lt;/p&gt;
-&lt;p id=&quot;9007&quot; class=&quot;graf--pre graf-after--p&quot;&gt;&lt;strong&gt;sudo gpasswd -a &lt;em&gt;$USERNAME&lt;/em&gt; input&lt;/strong&gt;&lt;/p&gt;
-&lt;p class=&quot;graf--pre graf-after--p&quot;&gt;Restart the X server and enjoy!&lt;/p&gt;
 
+&lt;p class=&quot;graf--pre graf-after--p&quot;&gt;Change places of &lt;strong&gt;ScrollUpButton&lt;/strong&gt; and &lt;strong&gt;ScrollDownButton &lt;/strong&gt;to enable natural scrolling.&lt;/p&gt;
+
+&lt;p class=&quot;graf--pre graf-after--p&quot;&gt;Next, add the user of your choice to the &lt;strong&gt;input&lt;/strong&gt; group to give the permissions required for setting the input methods up:&lt;/p&gt;
+
+&lt;p id=&quot;9007&quot; class=&quot;graf--pre graf-after--p&quot;&gt;&lt;strong&gt;sudo gpasswd -a &lt;em&gt;$USERNAME&lt;/em&gt; input&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p class=&quot;graf--pre graf-after--p&quot;&gt;Restart the X server and enjoy!&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Jan 2016 19:10:41 +0000</pubDate>
         <link>https://sdll.github.io//blog/2016/01/02/mtrack-arch-linux/</link>
         <guid isPermaLink="true">https://sdll.github.io//blog/2016/01/02/mtrack-arch-linux/</guid>
         
         
-        <category>sysadm</category>
+        <category>os.admin</category>
         
       </item>
     
@@ -133,7 +142,7 @@ pcm.dsp {
         <guid isPermaLink="true">https://sdll.github.io//blog/2015/12/23/alsa-alsaequal-arch-linux/</guid>
         
         
-        <category>sysadm</category>
+        <category>os.admin</category>
         
       </item>
     
@@ -211,7 +220,7 @@ Discreteness of energy levels in quantum systems imposes a limit on their time d
         <guid isPermaLink="true">https://sdll.github.io//blog/2015/10/13/classical-chaos-and-quantum-chaology/</guid>
         
         
-        <category>physics</category>
+        <category>sci.phy</category>
         
       </item>
     
@@ -360,7 +369,7 @@ Ionic compounds do not dissolve in non-polar solvents, since there are no electr
         <guid isPermaLink="true">https://sdll.github.io//blog/2014/11/09/chemical-bonding-and-physical-structures/</guid>
         
         
-        <category>chemistry</category>
+        <category>sci.chem</category>
         
       </item>
     

@@ -130,6 +130,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-paginate
+  redcarpet
   rouge
   stringex
 

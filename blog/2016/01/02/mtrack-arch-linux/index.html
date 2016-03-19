@@ -34,7 +34,7 @@
 
 
   
-    in sysadm
+    in os.admin
   
 
 
@@ -45,7 +45,7 @@
   
 
 
-The mtrack driver pro...">
+The mtrack driver p...">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -96,15 +96,15 @@ The mtrack driver pro...">
     
 
     
-         <li> /<a class="page-link" href="/blog/categories/chemistry/">chemistry</a></li>
+         <li> /<a class="page-link" href="/blog/categories/sci-dot-chem/">sci.chem</a></li>
     
 
     
-         <li> /<a class="page-link" href="/blog/categories/physics/">physics</a></li>
+         <li> /<a class="page-link" href="/blog/categories/sci-dot-phy/">sci.phy</a></li>
     
 
     
-         <li> /<a class="page-link" href="/blog/categories/sysadm/">sysadm</a></li>
+         <li> /<a class="page-link" href="/blog/categories/os-dot-admin/">os.admin</a></li>
     
 
 
@@ -137,7 +137,7 @@ The mtrack driver pro...">
 
 <span class="categories">
   
-    in <a class='category' href='/blog/categories/sysadm/'>sysadm</a>
+    in <a class='category' href='/blog/categories/os-dot-admin/'>os.admin</a>
   
 </span>
 
@@ -149,11 +149,17 @@ The mtrack driver pro...">
 
 
 <div class="entry-content"><p>The <a href="https://github.com/BlueDragonX/xf86-input-mtrack">mtrack driver</a> provides multifacetous configurability and gestures support for multitouch touchpads.</p>
+
 <p>In Arch, the driver can be installed from the AUR with yaourt:</p>
+
 <p id="850b" class="graf--pre graf-after--p"><strong>yaourt -S xf86-input-mtrack-git</strong></p>
+
 <p>Then set up your configuration file:</p>
+
 <p id="d6d9" class="graf--pre graf-after--p"><strong>sudo nano /etc/X11/xorg.conf.d/10-mtrack.conf</strong></p>
+
 <p class="graf--pre graf-after--p">The configuration I recommend is the following:</p>
+
 <pre>
 <code class="bash">
 Section "InputClass"
@@ -188,11 +194,14 @@ Section "InputClass"
 EndSection
 </code>
 </pre>
-<p class="graf--pre graf-after--p">Change places of <strong>ScrollUpButton</strong> and <strong>ScrollDownButton </strong>to enable natural scrolling.</p>
-<p class="graf--pre graf-after--p">Next, add the user of your choice to the <strong>input</strong> group to give the permissions required for setting the input methods up:</p>
-<p id="9007" class="graf--pre graf-after--p"><strong>sudo gpasswd -a <em>$USERNAME</em> input</strong></p>
-<p class="graf--pre graf-after--p">Restart the X server and enjoy!</p>
 
+<p class="graf--pre graf-after--p">Change places of <strong>ScrollUpButton</strong> and <strong>ScrollDownButton </strong>to enable natural scrolling.</p>
+
+<p class="graf--pre graf-after--p">Next, add the user of your choice to the <strong>input</strong> group to give the permissions required for setting the input methods up:</p>
+
+<p id="9007" class="graf--pre graf-after--p"><strong>sudo gpasswd -a <em>$USERNAME</em> input</strong></p>
+
+<p class="graf--pre graf-after--p">Restart the X server and enjoy!</p>
 </div>
 
 
