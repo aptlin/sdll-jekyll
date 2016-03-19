@@ -20,10 +20,10 @@ root: /
 permalink: /blog/:year/:month/:day/:title/
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
-
+plugins_dir: _plugins
 # Plugins
 category_dir: blog/categories
 category_title_prefix: ''
 
 gems: [jekyll-paginate]
-safe: false
+titlecase: false
