@@ -354,6 +354,9 @@ nav ul {
 .sidenav li {
   display: inline; }
 
+.categories {
+  font-family: "Courier", monospace; }
+
 /**
  * Syntax highlighting styles
  */
