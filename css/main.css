@@ -66,10 +66,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #336666;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #1a3333; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -306,7 +306,7 @@ pre {
 
 .postlist {
   font-family: "Courier", monospace !important;
-  font-size: 18px !important;
+  font-size: 22px !important;
   font-weight: 500; }
 
 .post-content {
@@ -356,6 +356,9 @@ nav ul {
 
 .categories {
   font-family: "Courier", monospace; }
+
+.catname {
+  margin-bottom: 0px; }
 
 /**
  * Syntax highlighting styles
