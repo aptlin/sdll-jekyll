@@ -364,15 +364,14 @@ nav ul {
 
 .sidecat {
   float: right;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
   position: relative;
   line-height: 32px;
   list-style-type: none;
   font-family: "Courier", monospace;
   font-size: 18px; }
-
-.sidecat span {
-  margin-left: 16px; }
 
 .entry-title {
   font-family: "Courier", monospace; }
