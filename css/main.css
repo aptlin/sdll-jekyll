@@ -371,6 +371,9 @@ nav ul {
   font-family: "Courier", monospace;
   font-size: 18px; }
 
+.sidecat span {
+  margin-left: 16px; }
+
 .entry-title {
   font-family: "Courier", monospace; }
 
