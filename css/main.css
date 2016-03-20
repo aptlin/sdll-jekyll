@@ -371,6 +371,9 @@ nav ul {
   font-family: "Courier", monospace;
   font-size: 18px; }
 
+.entry-title {
+  font-family: "Courier", monospace; }
+
 /**
  * Syntax highlighting styles
  */
