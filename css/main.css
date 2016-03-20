@@ -362,6 +362,15 @@ nav ul {
 .catname {
   margin-bottom: 0px; }
 
+.sidecat {
+  float: right;
+  margin: 0;
+  position: relative;
+  line-height: 32px;
+  list-style-type: none;
+  font-family: "Courier", monospace;
+  font-size: 18px; }
+
 /**
  * Syntax highlighting styles
  */
