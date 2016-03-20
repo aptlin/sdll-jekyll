@@ -5,8 +5,8 @@
     <description></description>
     <link>https://sdll.github.io//</link>
     <atom:link href="https://sdll.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Mar 2016 10:01:08 +0000</pubDate>
-    <lastBuildDate>Sun, 20 Mar 2016 10:01:08 +0000</lastBuildDate>
+    <pubDate>Sun, 20 Mar 2016 10:07:35 +0000</pubDate>
+    <lastBuildDate>Sun, 20 Mar 2016 10:07:35 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -85,16 +85,18 @@ The absolute value of the approximation error, $ |\Delta|$, is called an &lt;em&
 Thus, we give up on using any specific base and focus on the following question: what is the most intuitive way of approximating a non-integer number?
 The answer seems to be straightforward: determine an integral interval (interval between two integers) which contains the approximated number. The number hence can be represented by identifying the lower bound of the interval:&lt;/p&gt;
 
-&lt;p&gt;$ \exists(\alpha_0 \in N,\  0 &amp;lt;r&amp;lt;1)(\alpha \approx \alpha_0+r)$
-$ \alpha_0 $ is our first approximation. Since $ r$ is less than 1, it can be represented in the form $ r=\frac{1}{x_1}$, where $ x_1$ is greater than 1. Hence, (9) can be written in the following form:&lt;/p&gt;
+&lt;p&gt;$$ \exists(\alpha_0 \in N,\  0 &amp;lt;r&amp;lt;1)(\alpha \approx \alpha_0+r)$$&lt;/p&gt;
 
-&lt;p&gt;$ \exists (\alpha_0,\in\mathbb{N}, x_1&amp;gt;1)(\alpha \approx \alpha_0+\frac{1}{x_1})$&lt;/p&gt;
+&lt;p&gt;$ \alpha_0 $ is our first approximation. Since $ r$ is less than 1, it can be represented in the form $ r=\frac{1}{x_1}$, where $ x_1$ is greater than 1. Hence, (9) can be written in the following form:&lt;/p&gt;
+
+&lt;p&gt;$$ \exists (\alpha_0,\in\mathbb{N}, x_1&amp;gt;1)(\alpha \approx \alpha_0+\frac{1}{x_1})$$&lt;/p&gt;
 
 &lt;p&gt;Now our approximation can be improved even further; we can repeat the procedure for approximating $ x_1$. Thus we obtain:&lt;/p&gt;
 
-&lt;p&gt;$ \exists (\alpha_0,\alpha_1\in\mathbb{N}, x_2&amp;gt;1)(\alpha \approx \alpha_0+\frac{1}{\alpha_1+\frac{1}{x_2}}). $
-The expression 
-$ \alpha_0+\frac{1}{\alpha_1+\frac{1}{\alpha_2+\frac{1}{\cdots+\frac{1}{\alpha_{n-2}+\frac{1}{{\alpha_{n-1} +\frac{1}{\alpha_n}}}}}}}$ 
+&lt;p&gt;$$ \exists (\alpha_0,\alpha_1\in\mathbb{N}, x_2&amp;gt;1)(\alpha \approx \alpha_0+\frac{1}{\alpha_1+\frac{1}{x_2}}). $$&lt;/p&gt;
+
+&lt;p&gt;The expression 
+$$ \alpha_0+\frac{1}{\alpha_1+\frac{1}{\alpha_2+\frac{1}{\cdots+\frac{1}{\alpha_{n-2}+\frac{1}{{\alpha_{n-1} +\frac{1}{\alpha_n}}}}}}}$$ 
 is called a continued fraction. $ \alpha_0, \alpha_1, \cdots, \alpha_n$ are called the &lt;em&gt;elements&lt;/em&gt; of the continued fraction. We restrict the current definition to $ \alpha_0, \alpha_1, \cdots, \alpha_n \in \mathbb{N}$. Note the gawky notation which can be tedious to write on a piece of paper if there are more than, for instance, 5 elements. Let&amp;#39;s introduce the short-hand notation so that  our continued fraction can be written in the following form: $ [\alpha_0;\alpha_1,\alpha_2,\cdots,\alpha_n]$.&lt;/p&gt;
 
 &lt;p&gt;The following theorems can be proven:&lt;/p&gt;

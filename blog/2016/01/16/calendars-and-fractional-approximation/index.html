@@ -225,16 +225,18 @@ The absolute value of the approximation error, $ |\Delta|$, is called an <em>abs
 Thus, we give up on using any specific base and focus on the following question: what is the most intuitive way of approximating a non-integer number?
 The answer seems to be straightforward: determine an integral interval (interval between two integers) which contains the approximated number. The number hence can be represented by identifying the lower bound of the interval:</p>
 
-<p>$ \exists(\alpha_0 \in N,\  0 &lt;r&lt;1)(\alpha \approx \alpha_0+r)$
-$ \alpha_0 $ is our first approximation. Since $ r$ is less than 1, it can be represented in the form $ r=\frac{1}{x_1}$, where $ x_1$ is greater than 1. Hence, (9) can be written in the following form:</p>
+<p>$$ \exists(\alpha_0 \in N,\  0 &lt;r&lt;1)(\alpha \approx \alpha_0+r)$$</p>
 
-<p>$ \exists (\alpha_0,\in\mathbb{N}, x_1&gt;1)(\alpha \approx \alpha_0+\frac{1}{x_1})$</p>
+<p>$ \alpha_0 $ is our first approximation. Since $ r$ is less than 1, it can be represented in the form $ r=\frac{1}{x_1}$, where $ x_1$ is greater than 1. Hence, (9) can be written in the following form:</p>
+
+<p>$$ \exists (\alpha_0,\in\mathbb{N}, x_1&gt;1)(\alpha \approx \alpha_0+\frac{1}{x_1})$$</p>
 
 <p>Now our approximation can be improved even further; we can repeat the procedure for approximating $ x_1$. Thus we obtain:</p>
 
-<p>$ \exists (\alpha_0,\alpha_1\in\mathbb{N}, x_2&gt;1)(\alpha \approx \alpha_0+\frac{1}{\alpha_1+\frac{1}{x_2}}). $
-The expression 
-$ \alpha_0+\frac{1}{\alpha_1+\frac{1}{\alpha_2+\frac{1}{\cdots+\frac{1}{\alpha_{n-2}+\frac{1}{{\alpha_{n-1} +\frac{1}{\alpha_n}}}}}}}$ 
+<p>$$ \exists (\alpha_0,\alpha_1\in\mathbb{N}, x_2&gt;1)(\alpha \approx \alpha_0+\frac{1}{\alpha_1+\frac{1}{x_2}}). $$</p>
+
+<p>The expression 
+$$ \alpha_0+\frac{1}{\alpha_1+\frac{1}{\alpha_2+\frac{1}{\cdots+\frac{1}{\alpha_{n-2}+\frac{1}{{\alpha_{n-1} +\frac{1}{\alpha_n}}}}}}}$$ 
 is called a continued fraction. $ \alpha_0, \alpha_1, \cdots, \alpha_n$ are called the <em>elements</em> of the continued fraction. We restrict the current definition to $ \alpha_0, \alpha_1, \cdots, \alpha_n \in \mathbb{N}$. Note the gawky notation which can be tedious to write on a piece of paper if there are more than, for instance, 5 elements. Let&#39;s introduce the short-hand notation so that  our continued fraction can be written in the following form: $ [\alpha_0;\alpha_1,\alpha_2,\cdots,\alpha_n]$.</p>
 
 <p>The following theorems can be proven:</p>
