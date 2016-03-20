@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sasha delly</title>
+    <title>sasha.delly</title>
     <description></description>
     <link>https://sdll.github.io//</link>
     <atom:link href="https://sdll.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Mar 2016 23:02:59 +0000</pubDate>
-    <lastBuildDate>Sat, 19 Mar 2016 23:02:59 +0000</lastBuildDate>
+    <pubDate>Sun, 20 Mar 2016 08:21:20 +0000</pubDate>
+    <lastBuildDate>Sun, 20 Mar 2016 08:21:20 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -39,60 +39,63 @@ Let&#39;s say we want our year to last 365 days. Every time we the year finishes
 &lt;p style=&quot;text-align:center;&quot;&gt;&lt;em&gt; Find an approximation of a real number&lt;/em&gt;
 &lt;em&gt; in the form of a fraction with the denominator q.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p style=&quot;text-align:left;&quot;&gt;If the real number line is constructed and all the rational numbers with the denominator q are marked on it, the number $$ \alpha $$ is either equal to one of the fractions or lies between two of them. The case of  $$ \alpha $$ coinciding with one of the fractions is trivial.However, if $$ \alpha $$ is not equal to either of them, it satisfies the following pair of inequalities for some integer p:&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;If the real number line is constructed and all the rational numbers with the denominator q are marked on it, the number $ \alpha $ is either equal to one of the fractions or lies between two of them. The case of  $ \alpha $ coinciding with one of the fractions is trivial.However, if $ \alpha $ is not equal to either of them, it satisfies the following pair of inequalities for some integer p:&lt;/p&gt;
 
-&lt;p style=&quot;text-align:center;&quot;&gt;$$ \frac{p-1}{q} &amp;lt; \alpha &amp;lt;\frac{p}{q}$$&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;$\frac{p-1}{q} &amp;lt; \alpha &amp;lt;\frac{p}{q}$&lt;/p&gt;
 
-&lt;p&gt;One of the two fractions $$ \frac{p-1}{q}$$ and $$ \frac{p}{q} $$, which is closer on the number line to $$ \alpha $$, constitutes the best rational approximation with the required denominator $$ q $$. For instance, let&amp;#39;s consider the approximation of  represented in the Figure 1.&lt;/p&gt;
+One of the two fractions $ \frac{p-1}{q}$ and $ \frac{p}{q} $, which is closer on the number line to $ \alpha $, constitutes the best rational approximation with the required denominator $ q $. For instance, let&#39;s consider the approximation of  represented in Figure 1.
 
-&lt;p&gt;[caption id=&amp;quot;approx&amp;quot; align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;327&amp;quot;]&lt;img src=&quot;/assets/drawing.png&quot; alt=&quot;alpha&quot; width=&quot;327&quot; height=&quot;112&quot; /&gt; Figure 1[/caption]&lt;/p&gt;
+&lt;p&gt;
+&lt;ul style=&quot;list-style-type:none; display:table;margin:auto;text-align:center;&quot;&gt;
+&lt;li&gt;&lt;img src=&quot;/assets/drawing.png&quot; width=&quot;256px&quot;/&gt;&lt;/li&gt;
+&lt;li&gt; &lt;em&gt;Figure 1&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
 
-&lt;p&gt;$$ \alpha $$ is closer to $$ \frac{p}{q} $$, and hence $$ \alpha\approx\frac{p}{q} $$.  If $$ \alpha $$ lies exactly between $$ \frac{p-1}{q} $$ and $$ \frac{p}{q} $$, $$ \alpha $$ is said to be best approximated by $$ \frac{p}{q} $$ to eliminate indeterminate cases. When $$ \alpha $$ is approximated, a corresponding approximation error $$ \Delta $$ emerges:&lt;/p&gt;
+&lt;p&gt;$ \alpha $ is closer to $ \frac{p}{q} $, and hence $ \alpha\approx\frac{p}{q} $.  If $ \alpha $ lies exactly between $ \frac{p-1}{q} $ and $ \frac{p}{q} $, $ \alpha $ is said to be best approximated by $ \frac{p}{q} $ to eliminate indeterminate cases. When $ \alpha $ is approximated, a corresponding approximation error $ \Delta $ emerges:&lt;/p&gt;
 
-&lt;p style=&quot;text-align:center;&quot;&gt;$$ \Delta=\alpha-\frac{p}{q} $$&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;$ \Delta=\alpha-\frac{p}{q} $&lt;/p&gt;
 
-&lt;p&gt;If the approximation $$ \frac{p}{q} $$ underestimates $$ \alpha $$, $$ \Delta &amp;lt; 0$$ , if  it overestimates, $$ \Delta &amp;gt; 0$$ .
-The absolute value of the approximation error, $$ |\Delta|$$, is called an &lt;em&gt;absolute error&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;If the approximation $ \frac{p}{q} $ underestimates $ \alpha $, $ \Delta &amp;lt; 0$ , if  it overestimates, $ \Delta &amp;gt; 0$ .
+The absolute value of the approximation error, $ |\Delta|$, is called an &lt;em&gt;absolute error&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;From Figure 1 it is evident that the absolute error never exceeds half the length between the approximating fractions. Thus,&lt;/p&gt;
 
-&lt;p style=&quot;text-align:center;&quot;&gt;$$ |\Delta| \leq \frac{1}{2q}$$&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;$ |\Delta| \leq \frac{1}{2q}$&lt;/p&gt;
 
-&lt;p&gt;The value $$ \frac{1}{2q}$$ is the &lt;em&gt;upper bound&lt;/em&gt; of the absolute error. The upper bound of the absolute error is achieved when $$ \alpha$$ lies exactly between the approximating fractions.&lt;/p&gt;
+&lt;p&gt;The value $ \frac{1}{2q}$ is the &lt;em&gt;upper bound&lt;/em&gt; of the absolute error. The upper bound of the absolute error is achieved when $ \alpha$ lies exactly between the approximating fractions.&lt;/p&gt;
 
-&lt;p style=&quot;text-align:left;&quot;&gt;The approximation is optimal, if for the relatively small denominator $$ q$$ the approximation is as close to the true value as possible. This condition can be characterised by comparing the absolute error and its upper bound:&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;The approximation is optimal, if for the relatively small denominator $ q$ the approximation is as close to the true value as possible. This condition can be characterised by comparing the absolute error and its upper bound:&lt;/p&gt;
 
-&lt;p style=&quot;text-align:center;&quot;&gt;$$ | \alpha - \frac{p}{q}| : \frac{1}{2q}=2|q \alpha-p| $$&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;$ | \alpha - \frac{p}{q}| : \frac{1}{2q}=2|q \alpha-p| $&lt;/p&gt;
 
-&lt;p&gt;The defining part of the above equation is $$ |q\alpha-p|$$. Let&amp;#39;s call this value the &lt;em&gt;reduced error&lt;/em&gt; $$ h$$. Since the ratio of the absolute error to the upper bound of the absolute error lies between zero (in which case the approximation approaches the true value) and one,&lt;/p&gt;
+&lt;p&gt;The defining part of the above equation is $ |q\alpha-p|$. Let&amp;#39;s call this value the &lt;em&gt;reduced error&lt;/em&gt; $ h$. Since the ratio of the absolute error to the upper bound of the absolute error lies between zero (in which case the approximation approaches the true value) and one,&lt;/p&gt;
 
-&lt;p style=&quot;text-align:center;&quot;&gt;$$ 0&amp;lt;h \leq \frac{1}{2} $$&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;$ 0&amp;lt;h \leq \frac{1}{2} $&lt;/p&gt;
 
-&lt;p&gt;The smaller $$ h$$, the more preferable the approximation is. Let $$ \lambda$$ be the &lt;em&gt;coefficient of optimality&lt;/em&gt; defined as&lt;/p&gt;
+&lt;p&gt;The smaller $ h$, the more preferable the approximation is. Let $ \lambda$ be the &lt;em&gt;coefficient of optimality&lt;/em&gt; defined as&lt;/p&gt;
 
-&lt;p style=&quot;text-align:center;&quot;&gt;$$ \lambda=\frac{1}{2h}=\frac{1}{2|q\alpha-p|}$$&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;$ \lambda=\frac{1}{2h}=\frac{1}{2|q\alpha-p|}$&lt;/p&gt;
 
-&lt;p&gt;The coefficient of optimality can be intuitively understood as the factor by which the absolute error is less than the upper bound of the absolute error. Thus, the greater $$ \lambda$$, the more preferable the approximation is. From (6) it follows that $$ 1\leq\lambda&amp;lt;\infty$$ and $$ \lambda h=\frac{1}{2} $$.&lt;/p&gt;
+&lt;p&gt;The coefficient of optimality can be intuitively understood as the factor by which the absolute error is less than the upper bound of the absolute error. Thus, the greater $ \lambda$, the more preferable the approximation is. From (6) it follows that $ 1\leq\lambda&amp;lt;\infty$ and $ \lambda h=\frac{1}{2} $.&lt;/p&gt;
 
 &lt;p&gt;How can we apply the idea of fractional approximation to the development of a solar calendric system? We will find out soon. Let&amp;#39;s acquiant ourselves with a wonderful tool in our mathematical apparatus.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Continued Fractions&lt;/strong&gt;
-Let&amp;#39;s forget about the decimal number system. A mathematician Nikolai Nikolaevich Luzin said: &amp;quot;The advantages of the decimal number system are not mathematical but zoological. If humans had eight fingers instead of ten, the humankind would use the octal number system.&amp;quot; The decimal number system is useful in everyday life, but its use becomes superfluous if theoretical questions of arithmetic are investigated.
+&lt;p&gt;Let&amp;#39;s forget about the decimal number system. A mathematician Nikolai Nikolaevich Luzin said: &amp;quot;The advantages of the decimal number system are not mathematical but zoological. If humans had eight fingers instead of ten, the humankind would use the octal number system.&amp;quot; The decimal number system is useful in everyday life, but its use becomes superfluous if theoretical questions of arithmetic are investigated.
 Thus, we give up on using any specific base and focus on the following question: what is the most intuitive way of approximating a non-integer number?
 The answer seems to be straightforward: determine an integral interval (interval between two integers) which contains the approximated number. The number hence can be represented by identifying the lower bound of the interval:&lt;/p&gt;
 
-&lt;p&gt;$$ \exists (\alpha&lt;em&gt;0,\in\mathbb{N}, 0&amp;lt;r&amp;lt;1)(\alpha \approx \alpha&lt;/em&gt;0+r). $$&lt;/p&gt;
+&lt;p&gt;$ \exists(\alpha_0 \in N,\  0 &amp;lt;r&amp;lt;1)(\alpha \approx \alpha_0+r)$
+$ \alpha_0 $ is our first approximation. Since $ r$ is less than 1, it can be represented in the form $ r=\frac{1}{x_1}$, where $ x_1$ is greater than 1. Hence, (9) can be written in the following form:&lt;/p&gt;
 
-&lt;p&gt;$$ \alpha&lt;em&gt;0$$ is our first approximation. Since $$ r$$ is less than 1, it can be represented in the form $$ r=\frac{1}{x&lt;/em&gt;1}$$, where $$ x_1$$ is greater than 1. Hence, (9) can be written in the following form:&lt;/p&gt;
+&lt;p&gt;$ \exists (\alpha_0,\in\mathbb{N}, x_1&amp;gt;1)(\alpha \approx \alpha_0+\frac{1}{x_1})$&lt;/p&gt;
 
-&lt;p&gt;$$ \exists (\alpha&lt;em&gt;0,\in\mathbb{N}, x&lt;/em&gt;1&amp;gt;1)(\alpha \approx \alpha&lt;em&gt;0+\frac{1}{x&lt;/em&gt;1}).$$&lt;/p&gt;
+&lt;p&gt;Now our approximation can be improved even further; we can repeat the procedure for approximating $ x_1$. Thus we obtain:&lt;/p&gt;
 
-&lt;p&gt;Now our approximation can be improved even further; we can repeat the procedure for approximating $$ x_1$$. Thus we obtain:&lt;/p&gt;
-
-&lt;p&gt;$$ \exists (\alpha&lt;em&gt;0,\alpha&lt;/em&gt;1\in\mathbb{N}, x&lt;em&gt;2&amp;gt;1)(\alpha \approx \alpha&lt;/em&gt;0+\cfrac{1}{\alpha&lt;em&gt;1+\cfrac{1}{x&lt;/em&gt;2}}). $$
+&lt;p&gt;$ \exists (\alpha_0,\alpha_1\in\mathbb{N}, x_2&amp;gt;1)(\alpha \approx \alpha_0+\frac{1}{\alpha_1+\frac{1}{x_2}}). $
 The expression 
-$$ \alpha&lt;em&gt;0+\cfrac{1}{\alpha&lt;/em&gt;1+\cfrac{1}{\alpha&lt;em&gt;2+\cfrac{1}{\cdots+\cfrac{1}{\alpha&lt;/em&gt;{n-2}+\cfrac{1}{{\alpha&lt;em&gt;{n-1} +\cfrac{1}{\alpha&lt;/em&gt;n}}}}}}}$$ 
-is called a continued fraction. $$ \alpha&lt;em&gt;0, \alpha&lt;/em&gt;1, \cdots, \alpha&lt;em&gt;n$$ are called the &lt;em&gt;elements&lt;/em&gt; of the continued fraction. We restrict the current definition to $$ \alpha&lt;/em&gt;0, \alpha&lt;em&gt;1, \cdots, \alpha&lt;/em&gt;n \in \mathbb{N}$$. Note the gawky notation which can be tedious to write on a piece of paper if there are more than, for instance, 5 elements. Let&amp;#39;s introduce the short-hand notation so that  our continued fraction can be written in the following form: $$ [\alpha&lt;em&gt;0;\alpha&lt;/em&gt;1,\alpha&lt;em&gt;2,\cdots,\alpha&lt;/em&gt;n]$$.&lt;/p&gt;
+$ \alpha_0+\frac{1}{\alpha_1+\frac{1}{\alpha_2+\frac{1}{\cdots+\frac{1}{\alpha_{n-2}+\frac{1}{{\alpha_{n-1} +\frac{1}{\alpha_n}}}}}}}$ 
+is called a continued fraction. $ \alpha_0, \alpha_1, \cdots, \alpha_n$ are called the &lt;em&gt;elements&lt;/em&gt; of the continued fraction. We restrict the current definition to $ \alpha_0, \alpha_1, \cdots, \alpha_n \in \mathbb{N}$. Note the gawky notation which can be tedious to write on a piece of paper if there are more than, for instance, 5 elements. Let&amp;#39;s introduce the short-hand notation so that  our continued fraction can be written in the following form: $ [\alpha_0;\alpha_1,\alpha_2,\cdots,\alpha_n]$.&lt;/p&gt;
 
 &lt;p&gt;The following theorems can be proven:&lt;/p&gt;
 
@@ -109,30 +112,30 @@ is called a continued fraction. $$ \alpha&lt;em&gt;0, \alpha&lt;/em&gt;1, \cdots
 
 &lt;p&gt;&lt;strong&gt;Application to the Tropical Year&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Let&amp;#39;s return to our original problem. We need to approximate as closely as possible the mean length of the tropical year, $$ y=365.242189$$.&lt;/p&gt;
+&lt;p&gt;Let&amp;#39;s return to our original problem. We need to approximate as closely as possible the mean length of the tropical year, $ y=365.242189$.&lt;/p&gt;
 
 &lt;p&gt;Wouldn&amp;#39;t it be convenient for the length of the year to be such a nice integer 365? Nothing stops us to make our own conventions! Yet here is the downsize: our value would lose its physical meaning. Each &amp;#39;year&amp;#39; the Earth would be found in a different point of its orbit! In four years the discrepancy would constitute almost a whole day. This inconvenience destroys all our hope for the practical method of time accounting, doesn&amp;#39;t it?&lt;/p&gt;
 
-&lt;p&gt;It does not. Let&amp;#39;s devise the solution, remembering the &lt;a href=&quot;https://en.wikipedia.org/wiki/KISS_principle&quot;&gt;KISS principle&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It does not. Let&amp;#39;s devise the solution, remembering about the &lt;a href=&quot;https://en.wikipedia.org/wiki/KISS\_principle&quot;&gt;KISS principle&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;$$ y$$ can be represented as the following continued fraction (verify!):&lt;/p&gt;
+&lt;p&gt;$ y$ can be represented as the following continued fraction (verify!):&lt;/p&gt;
 
-&lt;p&gt;$$ [365; 4, 7, 1, 3, 40, 2, 3, 5]$$&lt;/p&gt;
+&lt;p&gt;$ [365; 4, 7, 1, 3, 40, 2, 3, 5]$&lt;/p&gt;
 
 &lt;p&gt;Let&amp;#39;s calculate all the fit fractions.&lt;/p&gt;
 
-&lt;p&gt;$$ \frac{p&lt;em&gt;0}{q&lt;/em&gt;0}=365$$
-$$ \frac{p&lt;em&gt;1}{q&lt;/em&gt;1}=365+\frac{1}{4}=365\frac{1}{4}$$
-$$ \frac{p&lt;em&gt;2}{q&lt;/em&gt;2}=365+\cfrac{1}{4+\cfrac{1}{7}}=365\frac{7}{29}$$
-$$ \frac{p&lt;em&gt;3}{q&lt;/em&gt;3}=365+\cfrac{1}{4+\cfrac{1}{7+\cfrac{1}{1}}}=365\frac{8}{33}$$
-$$ \frac{p&lt;em&gt;4}{q&lt;/em&gt;4}=365+\cfrac{1}{4+\cfrac{1}{7+\cfrac{1}{1+\cfrac{1}{3}}}}=365\frac{31}{128}$$
-$$ \frac{p&lt;em&gt;5}{q&lt;/em&gt;5}=365+\cfrac{1}{4+\cfrac{1}{7+\cfrac{1}{1+\cfrac{1}{3+\cfrac{1}{40}}}}}=365\frac{1248}{5153}$$&lt;/p&gt;
+&lt;p&gt;$ \frac{p_0}{q_0}=365$
+$ \frac{p_1}{q_1}=365+\frac{1}{4}=365\frac{1}{4}$
+$ \frac{p_2}{q_2}=365+\frac{1}{4+\frac{1}{7}}=365\frac{7}{29}$
+$ \frac{p_3}{q_3}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1}}}=365\frac{8}{33}$
+$ \frac{p_4}{q_4}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3}}}}=365\frac{31}{128}$
+$ \frac{p_5}{q_5}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40}}}}}=365\frac{1248}{5153}$&lt;/p&gt;
 
-&lt;p&gt;$$ \frac{p&lt;em&gt;6}{q&lt;/em&gt;6}=365+\cfrac{1}{4+\cfrac{1}{7+\cfrac{1}{1+\cfrac{1}{3+\cfrac{1}{40+\cfrac{1}{2}}}}}}=365\frac{2527}{10434}$$&lt;/p&gt;
+&lt;p&gt;$ \frac{p_6}{q_6}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2}}}}}}=365\frac{2527}{10434}$&lt;/p&gt;
 
-&lt;p&gt;$$ \frac{p&lt;em&gt;6}{q&lt;/em&gt;6}=365+\cfrac{1}{4+\cfrac{1}{7+\cfrac{1}{1+\cfrac{1}{3+\cfrac{1}{40+\cfrac{1}{2+\cfrac{1}{3}}}}}}}=365\frac{8829}{36455}$$&lt;/p&gt;
+&lt;p&gt;$ \frac{p_6}{q_6}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2+\frac{1}{3}}}}}}}=365\frac{8829}{36455}$&lt;/p&gt;
 
-&lt;p&gt;$$ \frac{p&lt;em&gt;6}{q&lt;/em&gt;6}=365+\cfrac{1}{4+\cfrac{1}{7+\cfrac{1}{1+\cfrac{1}{3+\cfrac{1}{40+\cfrac{1}{2+\cfrac{1}{3+\cfrac{1}{5}}}}}}}}=365\frac{46672}{192709}$$&lt;/p&gt;
+&lt;p&gt;$ \frac{p_6}{q_6}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2+\frac{1}{3+\frac{1}{5}}}}}}}}=365\frac{46672}{192709}$&lt;/p&gt;
 
 &lt;p&gt;We obtain the following table:&lt;/p&gt;
 
@@ -177,9 +180,9 @@ $$ \frac{p&lt;em&gt;5}{q&lt;/em&gt;5}=365+\cfrac{1}{4+\cfrac{1}{7+\cfrac{1}{1+\c
 
 &lt;p&gt;Changes in the optimality of all the other approximations are insignificant up to a second. Each new fit fraction gives a better approximation of the tropical year. In fact, the approximation number 1 is a backbone of the Julian calendar. With the help of Sosigenes of Alexandria, Julius Caesar ordered the adoption of a calendar with an added day once in four years in the Roman Empire. Omar Khayyam, a prolific mathematician, astronomer, philosopher and poet, suggested the adoption of the more accurate calendar with 8 leap years per 33-year cycle.&lt;/p&gt;
 
-&lt;p&gt;Discrepancy of 130 milliseconds in the 4th approximation has no practical importance in casual use. It is much more accurate than the Gregorian year, which is precisely 365 days 5 hours 49 minutes and 12 seconds, lagging behind the tropical year by about 27 seconds. Yet the adoption of such a calendar is problematic: the occurence of leap years is not &lt;i&gt;round&lt;/i&gt;, and transcendence of the cultural and administrative barriers requires a great leap from the humankind.
-&amp;nbsp;
-&lt;strong&gt;BIBLIOGRAPHY&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Discrepancy of 130 milliseconds in the 4th approximation has no practical importance in casual use. It is much more accurate than the Gregorian year, which is precisely 365 days 5 hours 49 minutes and 12 seconds, lagging behind the tropical year by about 27 seconds. Yet the adoption of such a calendar is problematic: the occurence of leap years is not &lt;i&gt;round&lt;/i&gt;, and transcendence of the cultural and administrative barriers requires a great leap from the humankind.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BIBLIOGRAPHY&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
     &lt;li&gt;Meeus, J. and Savoie, D, &lt;em&gt;T&lt;/em&gt;h&lt;em&gt;e history of the tropical year&lt;/em&gt;. Journal of the British Astronomical Association, 102(1), 40-42.&lt;/li&gt;
@@ -190,29 +193,6 @@ $$ \frac{p&lt;em&gt;5}{q&lt;/em&gt;5}=365+\cfrac{1}{4+\cfrac{1}{7+\cfrac{1}{1+\c
         <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
         <link>https://sdll.github.io//blog/2016/01/16/calendars-and-fractional-approximation/</link>
         <guid isPermaLink="true">https://sdll.github.io//blog/2016/01/16/calendars-and-fractional-approximation/</guid>
-        
-        
-        <category>math.NA</category>
-        
-      </item>
-    
-      <item>
-        <title>CALENDARSdf&amp; FRACTIONAL APPROXIMATION</title>
-        <description>&lt;script src=&quot;/scripts/jquery-1.12.2.min.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;/scripts/katex/katex.min.css&quot;&gt;
-&lt;script src=&quot;/scripts/katex/katex.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;/scripts/katex/contrib/auto-render.min.js&quot;&gt;&lt;/script&gt;
-~&lt;br&gt;
-$ \frac{1}{2} $&lt;/p&gt;
-
-&lt;script&gt;
-    renderMathInElement(document.body);
-&lt;/script&gt;
-</description>
-        <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
-        <link>https://sdll.github.io//blog/2016/01/16/help/</link>
-        <guid isPermaLink="true">https://sdll.github.io//blog/2016/01/16/help/</guid>
         
         
         <category>math.NA</category>
