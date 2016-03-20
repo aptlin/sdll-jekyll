@@ -1,0 +1,20 @@
+<div class="category">
+{% unless page.category == NULL %}
+<br>
+<ul class="sidecat">
+{% assign count ="0" %}
+{% for subcat in site.pages %}
+   {% if subcat.title contains page.category and subcat.title != page.category %}
+        {% assign count ="1" %}
+         <li> /<a class="page-link" href="{{ subcat.url | prepend: site.baseurl }}">{{ subcat.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+{% if count > '0' %}
+<header class="sidecat">
+<span>subcategories:</span>
+</header>
+{% endif %}
+{% endunless %}
+
+</div>

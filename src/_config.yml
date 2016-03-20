@@ -1,0 +1,29 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: sasha.delly 
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sdll.github.io/" # the base hostname & protocol for your site
+date_format: "ordinal"
+
+# Build settings
+highlighter: rouge
+markdown: redcarpet
+# If publishing to a subdirectory as in http://site.com/project set 'root: /project'
+root: /
+permalink: /blog/:year/:month/:day/:title/
+paginate: 10          # Posts per page on the blog index
+pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
+plugins_dir: _plugins
+# Plugins
+category_dir: blog/categories
+category_title_prefix: ''
+
+gems: [jekyll-paginate]
+titlecase: false

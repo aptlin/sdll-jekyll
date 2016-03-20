@@ -1,0 +1,7 @@
+{% capture category %}{{ post.categories | size }}{% endcapture %}
+
+<time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span>"}}</time>
+<h3 class='catname'><a class='postlist' href="{{ / }}{{ post.url }}">{{post.title}}</a></h3>
+{% if category != '0' %}
+  <span class="categories">in {{ post.categories | category_links }}</span>
+{% endif %}

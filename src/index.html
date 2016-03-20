@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+
+<div id="home">
+
+<table class="post-list"> 
+{% for post in site.posts reverse %}
+<tr>
+<td >
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
+</td>
+<td>
+<span><a class='postlist' href="{{ post.url }}">{{post.title}}</a></span>
+</td>
+</tr>
+{% endfor %}
+</table>
+</div>

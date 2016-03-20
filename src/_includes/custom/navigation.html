@@ -1,0 +1,17 @@
+<div class="wrapper">
+<ul class="sidenav">
+<li>/<a href="{{ / }}/about">abovt</a></li>
+{% for category in site.pages %}
+   {% if category.title == "math" %}
+         <li> /<a class="page-link" href="{{ category.url | prepend: site.baseurl }}">{{ category.title }}</a></li>
+   {% elsif category.title =="sci" %}
+         <li> /<a class="page-link" href="{{ category.url | prepend: site.baseurl }}">{{ category.title }}</a></li>
+   {% elsif category.title =="org" %}
+         <li> /<a class="page-link" href="{{ category.url | prepend: site.baseurl }}">{{ category.title }}</a></li>
+   {% endif %}
+{% endfor %}
+
+</ul>
+
+</div>
+
