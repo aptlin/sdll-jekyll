@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[sasha.delly]]></title>
+  <link href="https://sdll.github.io//atom.xml" rel="self"/>
+  <link href="https://sdll.github.io//"/>
+  <updated>2016-03-20T18:58:36+00:00</updated>
+  <id>https://sdll.github.io//</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CALENDARS & FRACTIONAL APPROXIMATION]]></title>
+    <link href="https://sdll.github.io//blog/2016/01/16/calendars-and-fractional-approximation/"/>
+    <updated>2016-01-16T00:00:00+00:00</updated>
+    <id>https://sdll.github.io//blog/2016/01/16/calendars-and-fractional-approximation</id>
+    <content type="html"><![CDATA[<p>Have you ever wondered what a calendar <i>is</i>? How would you explain the notion of a calendar to an alien, albeit a very precocious one with some notion of homo sapiens common sense?</p>
+
+<p>The word <i>calendar</i> originates from Latin <i>calendae</i> , or &quot;calends&quot;. The calends was the first day of the month in the ancient Roman calendar, when the debts fell due and accounts were reckoned in accordance with the account book called <em>kalendaria</em>.</p>
+
+<p>A calendar is a systematic register of time. At the core of the solar calendar lies a notion of a day, or the period of the Earth complete rotation about its axis, and a year, or the period of the Earth moving in its orbit around the sun.</p>
+
+<p>In the common calendar, each day is assigned a unique date which corresponds to a particular day, month and year. One-to-one correspondence is established between a date and a certain period of time, serving a function of a complete and consistent register of human experience. There are several calendric systems fulfilling one purpose or another:</p>
+
+<ul>
+    <li>fiscal calendars are used for budgeting, keeping accounts and taxation</li>
+    <li>religious calendars (e.g. Hebrew, Islamic) are used to determine dates of religious significance</li>
+    <li>civil calendars (e.g. Gregorian, Julian) are used for general purposes, such as synchronisation of logistics and business administration.</li>
+</ul>
+
+<p>The calendar commonly adopted for general purposes is the Gregorian calendar.</p>
+
+<h1>Gregorian Calendar</h1>
+
+<p><strong>Fractional Approximation</strong></p>
+
+<p style="text-align:left;">
+To understand the underlying structure of any calendric system we need some vocabulary. All solar calendars are based on the time period in which the Earth completes a full seasonal circuit called the <i>tropical year</i>. As of the year 2000, the mean tropical year is 365.242189 [1]. Although the duration of the tropical year changes, assume that it is known precisely. Note the fractional part 0.242189. 
+
+Let's say we want our year to last 365 days. Every time we the year finishes, the error term is introduced. If the error was not adjusted in the long term, some time later the ignorant astronomer from New York or Kostroma would be freezing in July snow and drip sweat in the flourishing park in January! But how can the fractional part be approximated in such a way that the discrepancy with the accurate value is minimal? The problem of the calendar construction in other words can be simplified as follows:</p>
+
+<p style="text-align:center;"><em> Find an approximation of a real number</em>
+<em> in the form of a fraction with the denominator q.</em></p>
+
+<p style="text-align:left;">If the real number line is constructed and all the rational numbers with the denominator q are marked on it, the number $ \alpha $ is either equal to one of the fractions or lies between two of them. The case of  $ \alpha $ coinciding with one of the fractions is trivial.However, if $ \alpha $ is not equal to either of them, it satisfies the following pair of inequalities for some integer p:</p>
+
+<p style="text-align:center;">$\frac{p-1}{q} &lt; \alpha &lt;\frac{p}{q}$</p>
+
+One of the two fractions $ \frac{p-1}{q}$ and $ \frac{p}{q} $, which is closer on the number line to $ \alpha $, constitutes the best rational approximation with the required denominator $ q $. For instance, let's consider the approximation of  represented in Figure 1.
+
+<p>
+<ul style="list-style-type:none; display:table;margin:auto;text-align:center;">
+<li><img src="/assets/drawing.png" width="256px"/></li>
+<li> <em>Figure 1</em></li>
+</ul>
+</p>
+
+<p>$ \alpha $ is closer to $ \frac{p}{q} $, and hence $ \alpha\approx\frac{p}{q} $.  If $ \alpha $ lies exactly between $ \frac{p-1}{q} $ and $ \frac{p}{q} $, $ \alpha $ is said to be best approximated by $ \frac{p}{q} $ to eliminate indeterminate cases. When $ \alpha $ is approximated, a corresponding approximation error $ \Delta $ emerges:</p>
+
+<p style="text-align:center;">$ \Delta=\alpha-\frac{p}{q} $</p>
+
+<p>If the approximation $ \frac{p}{q} $ underestimates $ \alpha $, $ \Delta &lt; 0$ , if  it overestimates, $ \Delta &gt; 0$ .
+The absolute value of the approximation error, $ |\Delta|$, is called an <em>absolute error</em>.</p>
+
+<p>From Figure 1 it is evident that the absolute error never exceeds half the length between the approximating fractions. Thus,</p>
+
+<p style="text-align:center;">$ |\Delta| \leq \frac{1}{2q}$</p>
+
+<p>The value $ \frac{1}{2q}$ is the <em>upper bound</em> of the absolute error. The upper bound of the absolute error is achieved when $ \alpha$ lies exactly between the approximating fractions.</p>
+
+<p style="text-align:left;">The approximation is optimal, if for the relatively small denominator $ q$ the approximation is as close to the true value as possible. This condition can be characterised by comparing the absolute error and its upper bound:</p>
+
+<p style="text-align:center;">$ | \alpha - \frac{p}{q}| : \frac{1}{2q}=2|q \alpha-p| $</p>
+
+<p>The defining part of the above equation is $ |q\alpha-p|$. Let&#39;s call this value the <em>reduced error</em> $ h$. Since the ratio of the absolute error to the upper bound of the absolute error lies between zero (in which case the approximation approaches the true value) and one,</p>
+
+<p style="text-align:center;">$ 0&lt;h \leq \frac{1}{2} $</p>
+
+<p>The smaller $ h$, the more preferable the approximation is. Let $ \lambda$ be the <em>coefficient of optimality</em> defined as</p>
+
+<p style="text-align:center;">$ \lambda=\frac{1}{2h}=\frac{1}{2|q\alpha-p|}$</p>
+
+<p>The coefficient of optimality can be intuitively understood as the factor by which the absolute error is less than the upper bound of the absolute error. Thus, the greater $ \lambda$, the more preferable the approximation is. From (6) it follows that $ 1\leq\lambda&lt;\infty$ and $ \lambda h=\frac{1}{2} $.</p>
+
+<p>How can we apply the idea of fractional approximation to the development of a solar calendric system? We will find out soon. Let&#39;s acquiant ourselves with a wonderful tool in our mathematical apparatus.</p>
+
+<p>Let&#39;s forget about the decimal number system. A mathematician Nikolai Nikolaevich Luzin said: &quot;The advantages of the decimal number system are not mathematical but zoological. If humans had eight fingers instead of ten, the humankind would use the octal number system.&quot; The decimal number system is useful in everyday life, but its use becomes superfluous if theoretical questions of arithmetic are investigated.
+Thus, we give up on using any specific base and focus on the following question: what is the most intuitive way of approximating a non-integer number?
+The answer seems to be straightforward: determine an integral interval (interval between two integers) which contains the approximated number. The number hence can be represented by identifying the lower bound of the interval:</p>
+
+<p>$$ \exists(\alpha_0 \in N,\  0 &lt;r&lt;1)(\alpha \approx \alpha_0+r)$$</p>
+
+<p>$ \alpha_0 $ is our first approximation. Since $ r$ is less than 1, it can be represented in the form $ r=\frac{1}{x_1}$, where $ x_1$ is greater than 1. Hence, (9) can be written in the following form:</p>
+
+<p>$$ \exists (\alpha_0,\in\mathbb{N}, x_1&gt;1)(\alpha \approx \alpha_0+\frac{1}{x_1})$$</p>
+
+<p>Now our approximation can be improved even further; we can repeat the procedure for approximating $ x_1$. Thus we obtain:</p>
+
+<p>$$ \exists (\alpha_0,\alpha_1\in\mathbb{N}, x_2&gt;1)(\alpha \approx \alpha_0+\frac{1}{\alpha_1+\frac{1}{x_2}}). $$</p>
+
+<p>The expression 
+$$ \alpha_0+\frac{1}{\alpha_1+\frac{1}{\alpha_2+\frac{1}{\cdots+\frac{1}{\alpha_{n-2}+\frac{1}{{\alpha_{n-1} +\frac{1}{\alpha_n}}}}}}}$$ 
+is called a continued fraction. $ \alpha_0, \alpha_1, \cdots, \alpha_n$ are called the <em>elements</em> of the continued fraction. We restrict the current definition to $ \alpha_0, \alpha_1, \cdots, \alpha_n \in \mathbb{N}$. Note the gawky notation which can be tedious to write on a piece of paper if there are more than, for instance, 5 elements. Let&#39;s introduce the short-hand notation so that  our continued fraction can be written in the following form: $ [\alpha_0;\alpha_1,\alpha_2,\cdots,\alpha_n]$.</p>
+
+<p>The following theorems can be proven:</p>
+
+<ul>
+    <li>Any positive rational number can be represented as a unique continued fraction with a finite number of elements and the last element equal to one.</li>
+    <li>Two continued fractions are equal if and only if their corresponding elements are equal.</li>
+</ul>
+
+<p>Irrational numbers cannot be represented as a finite continued fraction. However, there is a representation of each irrational number as a string of natural numbers in the form given above.</p>
+
+<p>Each continued fraction can be broken down into a <em>fit fraction</em> by writing down its first <em>n</em> elements and discarding all the others. The smaller <em>n</em>, the <em>simpler</em> the fit fraction is, i.e. it has a smaller denominator. The magnificent property of fit fractions is that <em>any</em> other approximation of <em>any</em> number by <em>any </em>fraction with the smaller denominator is worse than the approximation by a corresponding fit fraction.</p>
+
+<p>The proofs are omitted in the present discussion; rigorous development and further comprehensive  study of continued fractions can be found in the book by A.Ya. Khinchin.</p>
+
+<p><strong>Application to the Tropical Year</strong></p>
+
+<p>Let&#39;s return to our original problem. We need to approximate as closely as possible the mean length of the tropical year, $ y=365.242189$.</p>
+
+<p>Wouldn&#39;t it be convenient for the length of the year to be such a nice integer 365? Nothing stops us to make our own conventions! Yet here is the downsize: our value would lose its physical meaning. Each &#39;year&#39; the Earth would be found in a different point of its orbit! In four years the discrepancy would constitute almost a whole day. This inconvenience destroys all our hope for the practical method of time accounting, doesn&#39;t it?</p>
+
+<p>It does not. Let&#39;s devise the solution, remembering about the <a href="https://en.wikipedia.org/wiki/KISS\_principle">KISS principle</a>.</p>
+
+<p>$ y$ can be represented as the following continued fraction (verify!):</p>
+
+<p>$ [365; 4, 7, 1, 3, 40, 2, 3, 5]$</p>
+
+<p>Let&#39;s calculate all the fit fractions.</p>
+
+<p>$ \frac{p_0}{q_0}=365$
+$ \frac{p_1}{q_1}=365+\frac{1}{4}=365\frac{1}{4}$
+$ \frac{p_2}{q_2}=365+\frac{1}{4+\frac{1}{7}}=365\frac{7}{29}$
+$ \frac{p_3}{q_3}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1}}}=365\frac{8}{33}$
+$ \frac{p_4}{q_4}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3}}}}=365\frac{31}{128}$
+$ \frac{p_5}{q_5}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40}}}}}=365\frac{1248}{5153}$</p>
+
+<p>$ \frac{p_6}{q_6}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2}}}}}}=365\frac{2527}{10434}$</p>
+
+<p>$ \frac{p_6}{q_6}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2+\frac{1}{3}}}}}}}=365\frac{8829}{36455}$</p>
+
+<p>$ \frac{p_6}{q_6}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2+\frac{1}{3+\frac{1}{5}}}}}}}}=365\frac{46672}{192709}$</p>
+
+<p>We obtain the following table:</p>
+
+<table border="1" style="width:100%;">
+<tr>
+    <th>Number</th>
+        <th>Leap Years</th>
+    <th>Mean Year Length</th>
+    <th>Error</th>      
+</tr>
+<tr>
+    <td>1</td>
+        <td>1 leap year for every 4</td>
+    <td>365 days 6 hours 0 minutes 0 seconds</td>
+    <td>-11 min 15 s</td>       
+</tr>
+<tr>
+    <td>2</td>
+    <td>7 per 29</td>
+    <td>365 d 5 h 47 min 35 s</td>      
+    <td>+ 1 min 10 s</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>8 per 33</td>
+    <td>365 d 5 h 49 min 05 s</td>      
+    <td>- 20 s</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>31 per 128</td>
+    <td>365 d 5 h 48 min 45 s</td>      
+    <td>+ 0.13 s</td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>1248 per 5153</td>
+    <td>365 d 5 h 48 min 45 s</td>      
+    <td>+ 0.13 s</td>
+</tr>
+</table>
+
+<p>Changes in the optimality of all the other approximations are insignificant up to a second. Each new fit fraction gives a better approximation of the tropical year. In fact, the approximation number 1 is a backbone of the Julian calendar. With the help of Sosigenes of Alexandria, Julius Caesar ordered the adoption of a calendar with an added day once in four years in the Roman Empire. Omar Khayyam, a prolific mathematician, astronomer, philosopher and poet, suggested the adoption of the more accurate calendar with 8 leap years per 33-year cycle.</p>
+
+<p>Discrepancy of 130 milliseconds in the 4th approximation has no practical importance in casual use. It is much more accurate than the Gregorian year, which is precisely 365 days 5 hours 49 minutes and 12 seconds, lagging behind the tropical year by about 27 seconds. Yet the adoption of such a calendar is problematic: the occurence of leap years is not <i>round</i>, and transcendence of the cultural and administrative barriers requires a great leap from the humankind.</p>
+
+<p><strong>BIBLIOGRAPHY</strong></p>
+
+<ol>
+    <li>Meeus, J. and Savoie, D, <em>T</em>h<em>e history of the tropical year</em>. Journal of the British Astronomical Association, 102(1), 40-42.</li>
+    <li>Khinchin, A.Ya. <em>Continued Fractions. </em>The University Chicago Press, 1964</li>
+        <li>Beskin, N.M. <em> Continued Fractions. </em> KVANT magazine #1, 1970</li>
+</ol>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[mTRACK & ARCH LINUX]]></title>
+    <link href="https://sdll.github.io//blog/2016/01/02/mtrack-arch-linux/"/>
+    <updated>2016-01-02T19:10:41+00:00</updated>
+    <id>https://sdll.github.io//blog/2016/01/02/mtrack-arch-linux</id>
+    <content type="html"><![CDATA[<p>The <a href="https://github.com/BlueDragonX/xf86-input-mtrack">mtrack driver</a> provides multifacetous configurability and gestures support for multitouch touchpads.</p>
+
+<p>In Arch, the driver can be installed from the AUR with yaourt:</p>
+
+<p id="850b" class="graf--pre graf-after--p"><strong>yaourt -S xf86-input-mtrack-git</strong></p>
+
+<p>Then set up your configuration file:</p>
+
+<p id="d6d9" class="graf--pre graf-after--p"><strong>sudo nano /etc/X11/xorg.conf.d/10-mtrack.conf</strong></p>
+
+<p class="graf--pre graf-after--p">The configuration I recommend is the following:</p>
+
+<pre>
+<code class="bash">
+Section "InputClass"
+        Identifier "touchpad"
+        MatchIsTouchpad "on"
+        Driver          "mtrack”
+        MatchDevicePath "/dev/input/event*”
+        Option          "Sensitivity” “0.85”
+        Option          "FingerHigh” “3”
+        Option          "FingerLow” “3”
+        Option          "IgnoreThumb” “false”
+        Option          "IgnorePalm” “true”
+        Option          "TapButton1” “0”
+        Option          "TapButton2” “3”
+        Option          "TapButton3” “2”
+        Option          "TapButton4” “0”
+        Option          "ClickFinger1” “1”
+        Option          "ClickFinger2” “2”
+        Option          "ClickFinger3” “3”
+        Option          "ClickFinger4” “0”
+        Option          "ButtonMoveEmulate” “false”
+        Option          "ButtonIntegrated” “true”
+        Option          "ClickTime” “0”
+        Option          "BottomEdge” “0”
+        Option          "SwipeLeftButton” “8”
+        Option          "SwipeRightButton” “9”
+        Option          "SwipeUpButton” “0”
+        Option          "SwipeDownButton” “0”
+        Option          "ScrollDistance” “75”
+        Option          "ScrollUpButton” “4”
+        Option          "ScrollDownButton” “5”
+EndSection
+</code>
+</pre>
+
+<p class="graf--pre graf-after--p">Change places of <strong>ScrollUpButton</strong> and <strong>ScrollDownButton </strong>to enable natural scrolling.</p>
+
+<p class="graf--pre graf-after--p">Next, add the user of your choice to the <strong>input</strong> group to give the permissions required for setting the input methods up:</p>
+
+<p id="9007" class="graf--pre graf-after--p"><strong>sudo gpasswd -a <em>$USERNAME</em> input</strong></p>
+
+<p class="graf--pre graf-after--p">Restart the X server and enjoy!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ALSA, ALSAEqual & Arch Linux]]></title>
+    <link href="https://sdll.github.io//blog/2015/12/23/alsa-alsaequal-arch-linux/"/>
+    <updated>2015-12-23T16:32:19+00:00</updated>
+    <id>https://sdll.github.io//blog/2015/12/23/alsa-alsaequal-arch-linux</id>
+    <content type="html"><![CDATA[<p>Given:</p>
+<ul>
+<li>Arch Linux w/ 4.2.5-1-ARCH kernel</li>
+<li>Macbook Pro Late 2013</li>
+</ul>
+<p>Wanted:</p>
+<p style="padding-left:30px;">global sound settings compatible with all the applications installed</p>
+<p>Solution:</p>
+<p style="padding-left:30px;">Kernel-driven sound card drivers are provided by the ALSA framework, which has replaced the OSS. To learn more, consult the <a href="https://wiki.archlinux.org/index.php/ALSA">guide</a> on Arch Linux wiki I have found particularly helpful.</p>
+<p style="padding-left:30px;text-align:left;">First, install the <strong>alsa-utils</strong> package. By default, all the sound channels are initially muted. Manually unmute the channels by typing <strong>alsamixer </strong>command, choosing the required channels and pressing <strong>m</strong>.</p>
+<p style="padding-left:30px;">Secondly, check the ID of your sound card by typing the shell command <strong>aplay -l</strong>. The ID of my sound card was HDMI. Set the default sound card by creating the file at <strong>/etc/modprobe.d/alsa-base.conf </strong>:</p>
+<p style="padding-left:60px;">options snd_hda_intel index=0 model=intel-mac-auto id=PCH<br />
+options snd_hda_intel index=1 model=intel-mac-auto id=HDMI</p>
+<p style="padding-left:30px;">Thirdly, install <strong>alsa-oss </strong>to insure compatibility of the OSS applications with <strong>dmix</strong>. Then load the kernel modules by executing <strong>sudo modprobe snd-seq-oss snd-pcm-oss snd-mixer-oss .</strong></p>
+<p style="padding-left:30px;">Next, install the <strong>alsaequal</strong> package which provides the system equaliser. Edit the global ALSA configuration file located at /etc/asound.conf, replacing HDMI with your ID:</p>
+<pre>
+<code class="bash">
+pcm.!default {
+    type plug
+    slave.pcm {
+        @func getenv
+        vars [ ALSAPCM ]
+        default "hw:HDMI"
+    }
+}
+ctl.equal {
+    type equal;
+}
+
+pcm.plugequal {
+    type equal;
+    # Modify the line below if you do not
+    # want to use sound card 0.
+    #slave.pcm "plughw:0,0";
+    # by default we want to play from more sources at time:
+    slave.pcm "plug:dmix";
+}
+
+# pcm.equal {
+# If you do not want the equalizer to be your
+# default soundcard comment the following
+# line and uncomment the above line. (You can
+# choose it as the output device by addressing
+# it with specific apps,eg mpg123 -a equal 06.Back_In_Black.mp3)
+pcm.!default {
+    type plug;
+    slave.pcm plugequal;
+}
+
+pcm.dsp {
+    type plug
+    slave.pcm "dmix"
+}
+
+</code>
+</pre>
+<p style="padding-left:30px;">Finally, reboot and ensure the setup works by executing <strong>speaker-test</strong>.</p>
+<p>If everything is alright, congratulations! Otherwise, do not suffer alone; there are people happy to help!</p>
+<p style="padding-left:30px;">
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CLASSICAL CHAOS & QUANTUM CHAOLOGY]]></title>
+    <link href="https://sdll.github.io//blog/2015/10/13/classical-chaos-and-quantum-chaology/"/>
+    <updated>2015-10-13T19:50:28+00:00</updated>
+    <id>https://sdll.github.io//blog/2015/10/13/classical-chaos-and-quantum-chaology</id>
+    <content type="html"><![CDATA[<p>From shuttle buses and pedestrian flow [1] to the orbit of our Home [2], <em>chaos</em> permeates human existence. Chaos is ubiquitous, and the <em>sine qua non</em> elements of reality exhibit turbulent behaviour: quanta.</p>
+<p>Chaos is a persisting instability which makes deterministic motion so sensitive to any perturbation that a prediction of its trajectory is limited. [3] Although research on chaotic systems gave birth to theoretical and applied gems in mathematics and physics, quantum chaos remains a mystery rather than a well-established concept. There is no persistent exponential sensitivity of most [4] quantum dynamical systems to initial conditions, but there are universal quantum phenomena which resonate chaos of homologous classical settings.[5]</p>
+<p>Correspondence of classical mechanics and quantum theory is not a novel idea. In the first quarter of the XX century grandfathers of modern physics, Max Planck and Albert Einstein theoretically investigated quantum relatives of a simple pendulum: lasers.[6, 7, 8] In a laser the role of a flying bob is often played by a beam of protons or electrons, each rotating around an arbitrary axis in conformity with their spin. However, classical mechanics and quantum theory are fundamentally different despite the apparent relationship.[9] First of all, the energy of a quantum harmonic oscillator is quantised. Characteristic energy values, or eigenvalues, of the wavefunction are discrete in a quantum system, but form a continuous spectrum in the classical setting. Secondly, the energy of a quantum system in its lowest stationary state, called the zero-point energy, is greater than zero. The nonzero zero-point energy is a necessary condition for the oscillator to conform the Heisenberg uncertainty principle, since the null zero-point energy implies zero momentum and zero uncertainty in position.[10] The lowest energy of a classical harmonic oscillator, however, is zero at rest in equilibrium.<br />
+Discreteness of energy levels in quantum systems imposes a limit on their time development: only periodic motion with definite frequencies is allowed. Inconsistency of the limit with classical chaos evokes doubt about the validity of the <em>correspondence principle</em> between classical mechanics and quantum theory.[3] If quantum mechanics admits only regularity in motion, why do chaotic systems <em>exist</em>? How is the chaotic behaviour of the classical system reflected in the quantum counterpart?</p>
+<p><b> Classical Chaos </b></p>
+<p><em>Quantum chaology</em> [11] studies the relationship between chaotic and quantum systems. In order to understand what quantum chaos <em>is</em>, it is necessary to learn how chaotic motion can be described. One of the tools of a quantum chaologist is a concept of <em>phase space</em>, which dates back to Newton. [12, 13] In the second chapter of <em>Principia Mathematica</em> Newton introduces axioms of motion; the second law establishes the direct proportionality of the force and change in momentum. The intuitive relationship given by Newton was later rigorously formalised by William Rowan Hamilton and Karl Gustav-Jacob Jacobi into the concept of phase space, which extends three dimensions of Euclidian space to six, three for momentum and three for position.[12, 14] Momentum and position are <em>complementary</em> quantities, which give the complete instantaneous information about a dynamical system.[15] Visualisation of six dimensions is not easy, but in some cases, where symmetry or invariants are present, phase space can be reduced to manageable three or two dimensions. One of the systems in which the reduction is possible is that of a hydrogen atom, which consists of a lone electron around a lone proton.[12]</p>
+<p>The electron in a hydrogen atom is located in the 1s electron shell. For low principle quantum numbers, the difference between orbital energies is relatively high. For high enough principle quantum numbers, orbitals get closer together and the difference between their energies substantially decreases. Thus, if enough energy is supplied such that the electron in a hydrogen atom is excited to the higher energy level but not stripped from the proton, the energy levels in which the electron can be found form a continuum and the rules of classical mechanics apply.[12]</p>
+<p>Such an excited atom is called a <em>Rydberg atom</em>. In a strong magnetic field a Rydberg atom exhibits chaotic character. The magnetic field introduces an axis of symmetry through the atomic nucleus, since almost all the motion of the electron occurs in a plane. The symmetry reduces the phase space to four dimensions. Moreover, the total energy of the isolated and closed system of a Rydberg atom does not change. By considering a particular energy value, the three-dimensional <em>energy shell</em> of a phase space is obtained. The resultant space can then be projected on a fixed plane, called a <em>Poincaré</em> section. A Poincaré section of the excited hydrogen atom is shown on Figure 1.</p>
+<p><img class="alignnone size-full wp-image-197" src="/assets/1.png" alt="1" /></p>
+<p style="text-align:center;font-size:15px;"><em> <b>Figure 1</b>: The Poincaré section of the excited hydrogen atom indicates chaotic behaviour of the electron in the regions where the points of its trajectory scatter chaotically, shown in orange. Credit: [12]</em></p>
+<p>In classical dynamics, chaotic systems satisfy three conditions [15]:</p>
+<ol>
+<li>Boundedness. There exists a ball of a sufficiently large finite radius which contains any chaotically moving element of the system.</li>
+<li>Infinite recurrence. For an element in a chaotic system an arbitrarily small neighbourhood around the initial point of its trajectory is visited infinitely many times.</li>
+<li>Exponential sensitivity. In a chaotic system for any elements emanating arbitrarily closely the trajectories diverge exponentially.</li>
+</ol>
+<p>A dynamical system which satisfies the conditions 1 and 2 but not the condition 3 is called <em>quasiperiodic</em>.</p>
+<p>If atoms and molecules in the ground state are considered classically in the context of the <em>n</em>-body problem, it can be shown that all of them except a hydrogen atom and other two-body atomic systems behave chaotically. [16] In the quantum dynamical setting, however, these systems do not exhibit classical chaos, yet the associated wavefunctions and eigenvalues are strongly influenced by the chaotic property of the classical counterpart.</p>
+<p>A simple model of a classical dynamical system is that of a billiard point mass on a frictionless billiard table. [17, 18] A billiard table is a smooth bounded planar enclosure. A point mass reflects from its boundary with the angle of incidence equal to the angle of reflection. Depending on the angle of projection and the shape of the table boundary, the motion of a billiard is either periodic, quasiperiodic or chaotic.</p>
+<p><b> Quantum Chaology in a Billiard Hall </b></p>
+<p>A classical billiard table can be <em>quantised</em> to model a quantum system. The quantum mechanical description takes into account the wave-particle duality of a quantum dot replacing a point mass. To each energy level of a quantum system there corresponds a unique stationary state, called <em>eigenstate</em>, which defines a time-invariant wavefunction of a particle. [15] The eigenstate in a quantum system resembles a stationary wave pattern on a membrane of the drum. For some systems, which include an electron trapped inside a circular box, the spectrum of eigenvalues is readily determinable, which reflects regularity of the billiard table in the classical setting. However, when the corresponding classical system is chaotic, a different non-regular pattern of energy levels emerges (see Figure 2).</p>
+<p><img class="alignnone size-full wp-image-199" src="/assets/2.png" alt="2" /></p>
+<p style="text-align:center;font-size:15px;"><em> <b>Figure 2</b>: Left: classical orbits of a point mass in classical billiards. Right: corresponding wavefunctions of quantum billiards. Credit: [3]</em></p>
+<p>Although patterns which arise in quantum billiards may look random, in the early 1980s Eric Heller found that the eigenstates tend to concentrate around narrow channels,called <em>scars</em>, of enhanced eigenstate intensity. [12, 19] A series of eigenstates were calculated for a two-dimensional quantum billiard stadium with a chaotic classical counterpart. Surprisingly, similar patterns were discovered in the eigenstates of a Rydberg hydrogen atom (see Figure 3).</p>
+<p><img class="alignnone size-full wp-image-196" src="/assets/3.png" alt="3" /></p>
+<p style="text-align:center;font-size:15px;"><em> <b>Figure 3</b>: Top: seemingly regular eigenstates of a Rydberg hydrogen atom. Bottom: <em>scarring</em> characteristic for classically chaotic billiards. Credit: [12]</em></p>
+<p>The deep effect of classical dynamics seems to lie in the local statistics of the energy spectrum, such as the <em>level spacing distribution</em>.[17]The level spacing distribution is the distribution of all distances between successive energy levels. In the study of quantum chaology the following open <em>universality conjectures</em> were proposed, which seem to hold for most systems of the <em>generic case</em> [20]:</p>
+<ol>
+<li>If the classical system is not chaotic, then the level spacing distribution coincides with the corresponding distribution of <em>uncorrelated</em>, or random, energy levels with the same mean spacing.[21]</li>
+<li>If the classical system is chaotic, then the level spacing distribution coincides with the corresponding distribution of a suitable <em>ensemble</em> of random matrices, which define completely the properties of the physical system. [22]</li>
+</ol>
+<p>In the 1960s Martin Gutzwiller introduced another tool of quantum chaology: the formalism of quantisation by periodic orbits.[15, 23] The kernel of the method is <em>Gutzwiller's trace formula</em> which directly relates classical chaos and quantum mechanics.[20] One side of the trace formula combines lengths of closed chaotic orbits in the classical dynamical system, while the other involves a combination of the eigenvalues in the quantum system. Thus, by considering characteristics of chaos in the classical setting, properties of the corresponding quantum system can be deduced without solving the Schrödinger equation. Asymptotic approximation of the solution to the Schrödinger equation by the trace formula, however, is not random. Gutzwiller's approach matches another method of solving the same problem: Feynman's path approach.[20]</p>
+<p><b> Conclusion </b></p>
+<p>Classical chaos and quantum theory are closely related, but the relationship is not yet well-defined. One can be studied with the help of the other in the field of <em>semiclassical</em> physics. The semiclassical limit, in which the connection is the most apparent, is subtle, and more conundrums remain unsolved than concepts established to the present day. Although significant progress have been made in the last decades, fundamental questions of quantum chaology stand unanswered:</p>
+<ul>
+<li>How does order of the classical system affect the intrinsic properties of the quantum analogue?</li>
+<li>Does the present definition of chaos contain all the necessary and sufficient conditions accounting for its connection with quantum mechanics?</li>
+<li>Why do the statistics of the random matrix ensembles describe accurately the experimental fluctuations of energy levels?</li>
+</ul>
+<p>The field of quantum chaology is still in its infancy. Research in chaos has become more active in the past 20 years due to the unexpected connection between distribution of energy levels in the quantum systems with classically chaotic analogues and one of the most important functions in mathematics, Riemann zeta function. Insights are yet to come. Stay tuned.</p>
+<p><strong>REFERENCES</strong></p>
+<ol>
+<li>Nagatani, T. Chaos control and schedule of shuttle buses. Physica A 371, 683–691(2006).</li>
+<li>Diacu, F. The solution of the n-body problem. The Mathematical Intelligencer (1996).</li>
+<li>Berry, M. V. Quantum chaology in Quantum: a guide for the perplexed (ed Al-Khalili, J.) (Weidenfeld and Nicolson, 2003), 104–105.</li>
+<li>Berry, M. V. Quantum Chaology: Our Knowledge and Ignorance in New Trends in Nuclear Collective Dynamics (eds Abe, Y., Horiuchi, H. &amp; Matsuyanagi, K.) (Springer proceedings in Physics 58, 1992), 177–181.</li>
+<li>Berry, M. V. Quantum chaology, not quantum chaos. Physica Scripta 40, 335–336.</li>
+<li>Planck, M. Über eine Verbesserung der Wienschen Spektralgleichung. Verhandlungen der Deutschen Physikalischen Gesellschaft 2, 202–204 (1900).</li>
+<li>Planck, M. Zur Theorie des Gesetzes der Energieverteilung im Normalspektrum. Verhandlungen der Deutschen Physikalischen Gesellschaft 2, 237 (1900).</li>
+<li>Einstein, A. Zur Quantentheorie der Strahlung. Physikalische Zeitschrift 18, 121–128 (1917).</li>
+<li>Pauling, L. &amp; Wilson, E. Introduction to Quantum Mechanics: With Applications to Chemistry (Dover Publications, 1985).</li>
+<li>Young, H. D. &amp; Freedman, R. A. University Physics (Addison Wesley, 2013).</li>
+<li>Berry, M. V. Quantum Chaology. Proc. R. Soc. A 413 (1987).</li>
+<li>Gutzwiller, M. Quantum Chaos. Scientific American 266, 26–32 (1992).</li>
+<li>Newton, I. The principia: mathematical principles of natural philosophy (Univ of California Press, 1999).</li>
+<li>Mehra, J. &amp; Rechenberg, H. The Historical Development of Quantum Theory (Springer New York, 2000).</li>
+<li>Porter, M. An Introduction to Quantum Chaos. arXiv:nlin/0107039 (2001).</li>
+<li>Blu ̈mel, R. &amp; Reinhardt, W. P. Chaos in Atomic Physics (Cambridge University Press, 1997).</li>
+<li>Rudnick, Z. What is Quantum Chaos? Notices of the AMS 55, 32–34 (2008).</li>
+<li>Sinai, Y. What is a Billiard? Notices of the AMS 51 (2004).</li>
+<li>Heller, E. J. Bound-state eigenfunctions of classically chaotic Hamiltonian systems: scars of periodic orbits. Physical Review Letters 53, 1515 (1984).</li>
+<li>Cipra, B. A Prime Case of Chaos in What’s Happening in the Mathematical Sciences 4 (1999).</li>
+<li>Berry, M. V. &amp; Tabor, M. Level clustering in the regular spectrum in Proceedings of the Royal Society of London A: Mathematical, Physical and Engineering Sciences 356 (1977), 375–394.</li>
+<li>Bohigas, O., Giannoni, M. J. &amp; Schmit, C. Characterization of Chaotic Quantum Spec- tra and Universality of Level Fluctuation Laws. Phys. Rev. Lett. 52, 1–4 (1 Jan. 1984).</li>
+<li>Gutzwiller, M. Chaos in Classical and Quantum Mechanics (Springer New York, 1990).</li>
+</ol>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CHEMICAL BONDING & PHYSICAL STRUCTURES]]></title>
+    <link href="https://sdll.github.io//blog/2014/11/09/chemical-bonding-and-physical-structures/"/>
+    <updated>2014-11-09T19:29:00+00:00</updated>
+    <id>https://sdll.github.io//blog/2014/11/09/chemical-bonding-and-physical-structures</id>
+    <content type="html"><![CDATA[<p>Why are diamonds so hard and tough, while pencil leads are so brittle? Why does table salt dissolve in water? How can metals conduct electricity? The answer lies in their structure.</p>
+<p>In general, physical structures can be divided into two categories — <i>giant</i> structures and <i>simple </i>structures.</p>
+<p><em>Simple molecular</em> structures consist of atoms or molecules bound by intermolecular forces, such as hydrogen bonding and dipole-dipole interactions. Giant structures are uniform 'networks' of atoms, such as metals, polymers, ceramics and glasses. Even though all bonds are electrostatic in nature, the configuration of electrons and nuclei varies widely. The chemical and physical properties of such atomic configurations depend on whether the bonding character is ionic, metallic or covalent.</p>
+<p><strong>Metallic Bonding</strong></p>
+<p>Metallic bonding emerges from the electrostatic attraction between the electron cloud of <i>delocalised</i> electrons and metal cations. Diffraction patterns of metals provide evidence for the general tendency of cations towards close packing, which is exemplified by body centered and face centered cubic arrangements.</p>
+<table border="0">
+<tbody>
+<tr>
+<td><img src="/assets/403px-Lattice_body_centered_cubic.svg.png" alt="body centered cubic" width="300px" /></td>
+<td><img src="/assets/399px-Lattice_face_centered_cubic.svg.png" alt="face centered cubic" width="300px" /></td>
+</tr>
+<tr>
+<td>body centered cubic (bcc)</td>
+<td>face centered cubic (fcc)</td>
+</tr>
+</tbody>
+</table>
+<p>Metals are<i> electron deficient</i> due to the partially filled electron shells. If an external electric field is applied, the delocalised sea of electrons moves freely through the structure, which explains high electrical conductivity of metals. Metals also exhibit high thermal conductivity due to rowdy vibrations, known as <i>phonons</i>, of the high energy electrons. If the temperature increases, more heat can be transferred by the metal. The electrical conductivity, however, decreases due to agitated electrons resisting the forced induced by the electric field</p>
+<p>Thus, metal atoms in solid state are arranged in giant structures with strong bonds between the positive metal ions and a sea of delocalised electrons, which account for <b>high melting </b>and<b> boiling points</b>, <b>high density</b>, and great <b>electrical</b> and <b>thermal conductivity</b>.</p>
+<p><strong>Ionic Bonding</strong></p>
+<p>When electrons are transferred from one atom or molecule to another, positive and negative <i>ions</i> form. Ions of positive charges attract each other, forming giant ionic structures.</p>
+<p><i><b>Why do ions form one charge and not the other? </b></i><br />
+<i><b><br />
+</b></i> <i>Energy</i> is required to remove electrons from an atom or molecule. For a mole of atoms in the <u>gaseous</u> state, the minimum amount of energy to remove one mole of electrons from the closest electron shell is defined as the ionisation energy. The more electrons are removed from the species, the greater ionisation energy is required.</p>
+<p>Atoms and compounds interact with each other and form bonds to attain the most stable energy state. When the bonds form, energy is released. As a rule of thumb, the greater energy released from the formation of the bonds, the more stable the compound is. In these words, energy and entropy considerations determine the most stable ionic configurations.</p>
+<p>Ionic compounds are giant structures with cations and anions attracting each other. For instance, the crystal of NaCl can be described as an aggregate of sodium cations and chloride anions with each ion bonded to its six neighbours of opposite charge.</p>
+<p><img style="margin:auto;" src="/assets/nacl.gif" alt="NaCl structure" width="300px" /></p>
+<p>Ionic substances dissolve only in <i>polar </i>solvents (e.g. water, dichloromethane, ethyl acetate). In the first decades of the XX century it was noticed that some liquids have a small dielectric constant nearly independent of the temperature, while in the others the dielectric constant decreases rapidly as temperature rises. The concept of polarity and non-polarity was developed to explain the phenomenon. Liquids of the first kind, called <i>non-polar</i> solvents, consist of molecules with no electric dipole moment. Liquids of the second kind, called <i>polar</i> solvents, consist of molecules which form a permanent dipole-dipole moment.<br />
+Ionic compounds do not dissolve in non-polar solvents, since there are no electrostatic attraction between the neutral molecules of the solvent and the solute. Water is a polar molecule; electronegative oxygen atom bears partial negative charge, while two hydrogen atoms form the positive side of the dipole. Thus, <a href="http://www.youtube.com/watch?v=xdedxfhcpWo" target="_blank" rel="nofollow">upon dissociation, cations of the ionic solute bond to the negative pole of the water molecule, while anions attract partially positive hydrogens</a>. The giant ionic structure dissociates, and mobile ions become hydrated. A liquid which contains these mobile ions is called an <i>electrolyte</i> If a potential difference is applied to the solution, cations drift to the negative cathode where they are reduced, while anions move towards the positive anode and become oxidised. An electrolyte can also be produced by melting an ionic compound.</p>
+<p>Although molten or dissolved ionic compounds are good electricity conductors, they are usually insulators in the solid state. Since there are no free electrons moving in the solid ionic compound, no carriers of charge are present. However, ionic conductivity can be substantial, if ionic solids contain defects, allowing migration of ions, or mobile interstitials. Moreover, some compounds, such as silver iodide, have high electric conductivity in the solid state due to the partial covalent character of the structure. The crystal of AgI is cubic, with four iodide ions in the unit cell arranged in the close-packed positions (0, 0, 0), (0, 1/2, 1/2), (1/2, 0, 1/2), (1/2, 1/2, 0). The x-ray diffraction patterns show that the silver ions assume octahedral and tetrahedral positions. Silver ions can alter their position upon heating to 146 °C. When heated, the iodide ions form a rigid cubic framework with molten silver ions whizzing inside.</p>
+<table border="0">
+<tbody>
+<tr>
+<td><img src="/assets/Ag1I1-7783962.jpg" alt="silver iodide structure" width="300px" /></td>
+</tr>
+</tbody>
+</table>
+<p>In conclusion, ionic compounds are giant crystals which are soluble in polar solvents and conduct electricity if dissolved or molten.</p>
+<p><strong>Covalent Bonding</strong></p>
+<p>Covalent bonding involves electron sharing between atoms of a covalent compound. The atoms are held together by the electrostatic attraction between the positive nuclei and the negative electron cloud. Intermolecular interactions are relatively weak, and thus simple covalent structures are most often liquids or gases at room temperature with relatively low melting and boiling temperatures. Covalent bonds are <i>directed</i> and thus act in a particular direction determined by their spatial orientation. Giant covalent structures predominantly contain carbon, silicon or boron. Carbon atom, with four valence electrons in the outer shell, can form four covalent bonds. These bonds combine into various distinct structures, known as <i>allotropes</i>. One of the well known allotropes of carbon is a <i>diamond</i>, in which each atom is bonded strongly to four neighbouring atoms arranged in tetrahedral positions. Since all electrons are involved in bonding and there is no electron deficiency, diamond does not conduct electricity. Strong carbon-carbon covalent bonds explain characteristic hardness and insolubility of diamond in common solvents.</p>
+<table border="0">
+<tbody>
+<tr>
+<td><img src="/assets/v5_round_diamond_asha_med.jpg" alt="diamond" width="300px" /></td>
+<td><img src="/assets/Diamond3.gif" alt="diamond structure" width="300px" /></td>
+</tr>
+</tbody>
+</table>
+<p>Another well known allotrope of carbon is <i>graphite</i>. Graphite consists of layers of carbon atoms. Each atom has three neighbours. The p-orbitals of carbon atoms with valent electrons overlap and form a sea of delocalised electrons, which is similar to metallic compounds but displays <em>anisotropy</em>. Since the electron sea is free to move through the single layer of graphite, but not from one layer to another, graphite conducts electricity in the restricted set of directions. Sheets of carbon are held by weak dispersion forces and can easily slide past each other, accounting for the greasy texture of the material. Graphite has a high melting point and is used as a thermal insulator which prevents melting of industrial furnaces. Graphite is also insoluble in water and organic solvents due to the covalent character of the structure.</p>
+<table border="0">
+<tbody>
+<tr>
+<td><img src="/assets/GraphiteUSGOV.jpg" alt="graphite" width="300px" /></td>
+<td><img src="/assets/graphite.GIF" alt="graphite structure" width="300px" /></td>
+</tr>
+</tbody>
+</table>
+<p>If graphite layers are peeled off, or, in other words, if graphite is <i>exfoliated</i> multiple times, transparent sheet of carbon one atom thick, called <i>graphene</i>, is produced. Graphene was first obtained in the lab in 2003. Due to the 2 dimensional structure of graphene and valency of the lateral carbon atoms, graphene is the most reactive carbon allotrope. Graphene retains the giant structure and properties of graphite, such as high thermal and electrical conductivity. If a sheet of graphene is rolled up in a tube at specific angles, <i>carbon nanotubes</i> are formed. The combination of the rolling angle and the resulting radius determines the nanotube properties</p>
+<table border="0">
+<tbody>
+<tr>
+<td><img src="/assets/Graphene_visible.jpg" alt="graphene" width="300px" /></td>
+<td><img src="/assets/graphene.jpg" alt="graphene structure" width="300px" /></td>
+</tr>
+<tr>
+<td>a sheet of graphene on paper</td>
+</tr>
+</tbody>
+</table>
+<p>In 1985, a third allotrope of carbon was discovered, known as a <i>buckminsterfullerene</i> or <i>buckyball</i>. The name '<i>buckminster fullerene</i>' comes from the architect and inventor of the geodhesic dome, Richard Buckminster Fuller. Buckminsterfullerene, C<sub>60</sub>, has a form of a truncated icosahedron, resembling a soccer ball, made of 20 hexagons and 12 pentagons. Buckyballs, in contrast to graphite and diamonds, have a simple molecular structure and a well-defined molecular formula. The open surface of the structure can selectively react with other species while preserving its spherical geometry. On the other hand, atoms and small molecules can be entrapped in the interior with no chemical reaction taking place.</p>
+<table border="0">
+<tbody>
+<tr>
+<td><img src="/assets/C60-Fulleren-kristallin.JPG" alt="buckyballs" width="300px" /></td>
+<td><img src="/assets/Buckminsterfullerene.svg" alt="buckyball structure" width="300px" /></td>
+</tr>
+<tr>
+<td>C<sub>60 </sub></td>
+<td>buckminsterfullerene</td>
+</tr>
+</tbody>
+</table>
+<p>Buckminsterfulllerenes have a lower melting point than diamonds and graphite; C<sub>60</sub> sublimes at 800K, while diamond and graphite sublime at 4000K. It is insoluble in water, since carbon atoms form only weak Van der Waals attractions with water molecules. However, it is soluble in organic solvents, such as benzene. Pure buckminsterfullerenes are electrical insulators, since the delocalised electrons on the surface cannot move from one buckyball to another. Nevertheless, by <i>doping</i> buckyballs with other species they can be turned into semiconductors or conductors.</p>
+<p>Both carbon nanotubes and buckyballs are members of the wide class of carbon materials, <i>fullerenes</i>.</p>
+<table border="0">
+<tbody>
+<tr>
+<td><img src="/assets/Kohlenstoffnanoroehre_Animation.gif" alt="carbon nanotube" width="300px" /></td>
+<td><img src="/assets/Fullerene_c540.png" alt="silica structure" width="300px" /></td>
+</tr>
+<tr>
+<td>rotating carbon nanotube model</td>
+<td>the icosahedral fullerene, C<sub>540</sub></td>
+</tr>
+</tbody>
+</table>
+<p>Another compound with a giant covalent structure is<i> silicon dioxide</i>, also known as silicon(IV) oxide or silica.</p>
+<table border="0">
+<tbody>
+<tr>
+<td><img src="/assets/Quartz,_Tibet.jpg" alt="silica" width="300px" /></td>
+<td><img src="/assets/A-quartz.png" alt="silica structure" width="300px" /></td>
+</tr>
+<tr>
+<td>silica crystal, <i>quartz</i></td>
+<td>structure of α-quartz</td>
+</tr>
+</tbody>
+</table>
+<p>There are three major types of silicon dioxide crystals: <i>quartz</i>, <i>tridymite</i> and <i>cristobalite</i>. The angles between the tetrahedral arrangements of silicon and oxygen change upon heating, and the crystals transform into one another as temperature rises. The high melting point and characteristic hardness of silicon dioxide is due to the strong covalent bonds between the atoms of oxygen and silicon. Silica does not conduct electricity in its crystalline form, since there are no delocalised electrons or electron deficiency, and is insoluble in water and organic solvents.</p>
+<p><em>In conclusion, under standard conditions giant structures are strong, tough and hard frameworks of atoms with high melting and boiling points. Simple molecules are held together by relatively weak dipole-dipole moments and exist in either gaseous or liquid state.</em></p>
+<p><strong>REFERENCES:</strong></p>
+<p><span style="color:#666666;font-size:x-small;">1.   Edexcel Chemistry for AS by Graham Hill, Andrew Hunt (ISBN: 9780340949085) </span><br />
+<span style="color:#666666;font-size:x-small;">2    General Chemistry (Dover Books on Chemistry) by Linus Pauling (ISBN: 9780486656229)</span><br />
+<span style="color:#666666;font-size:x-small;">3.   http://ww2.chemistry.gatech.edu/class/6182/wilkinson/ionic.pdf , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">4.   http://en.wikipedia.org/wiki/Fast_ion_conductor#Superionic_conductors , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">5.   http://hyperphysics.phy-astr.gsu.edu/hbase/chemical/bond.html#c2 , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">6.   Geim, A. (2009). "Graphene: Status and Prospects". Science 324 (5934): 1530–4.</span><br />
+<span style="color:#666666;font-size:x-small;">7.   http://ibchem.com/IB/ibnotes/full/bon_htm/14.4.htm , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">8.   http://www.chemguide.co.uk/atoms/structures/giantcov.html , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">9.   http://www.chemguide.co.uk/CIE/section113/learninge.html , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">10. http://apps.kemi.se/flodessok/floden/kemamne_eng/kiseldioxid_eng.htm , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">11. http://chemwiki.ucdavis.edu/Wikitexts/UC_Davis/UCD_Chem_124A%3A_Kauzlarich/ChemWiki_Module_Topics/The_Unit_Cell , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">12. http://www.earthsci.org/education/teacher/basicgeol/miner/nacl.gif , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">13. http://www.webelements.com/_media/compounds/Ag/Ag1I1-7783962.jpg , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">14. https://betterthandiamond.com/images/diamonds/asha/round/v5_round_diamond_asha_med.jpg , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">15. https://www.uwgb.edu/dutchs/Graphics-Geol/ROCKMIN/ATOM-STRUCT/Diamond3.gif , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">16. http://upload.wikimedia.org/wikipedia/commons/f/f3/GraphiteUSGOV.jpg , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">17. http://upload.wikimedia.org/wikipedia/en/1/19/Graphene_visible.jpg , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">18. http://cnx.org/resources/bac5ec5fc6a10f049e0f85c5470c7d24/graphene.jpg , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">19. http://upload.wikimedia.org/wikipedia/commons/b/bf/Buckminsterfullerene.svg , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">20. http://upload.wikimedia.org/wikipedia/commons/1/14/Quartz,_Tibet.jpg , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">21. http://upload.wikimedia.org/wikipedia/commons/5/53/A-quartz.png , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">21. http://upload.wikimedia.org/wikipedia/commons/7/76/Kohlenstoffnanoroehre_Animation.gif , retrieved on 9/11/2014</span><br />
+<span style="color:#666666;font-size:x-small;">22. http://upload.wikimedia.org/wikipedia/commons/c/c5/Fullerene_c540.png</span></p>
+<p><span style="color:#666666;font-size:x-small;"><br />
+</span></p>
+]]></content>
+  </entry>
+  
+</feed>

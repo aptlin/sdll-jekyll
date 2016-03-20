@@ -24,6 +24,8 @@ plugins_dir: _plugins
 # Plugins
 category_dir: blog/categories
 category_title_prefix: ''
+# RSS
+subscribe_rss: /feed.xml
 
 gems: [jekyll-paginate]
 titlecase: false

@@ -297,4 +297,17 @@ font-size: 18px;
 .entry-title {
 font-family:"Courier", monospace;
 }
+.main-nav{
+float: right;
+list-style-type:none;
+margin-bottom: 0;
+display:table;
+position:relative;
+margin-left:auto;
+margin-right:auto;}
+.main-nav li{
+display:inline;
+margin-left:3px;
+margin-right:3px;
+}
 
