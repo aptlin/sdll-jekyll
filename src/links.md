@@ -19,6 +19,7 @@ feed
     + [LessWrong] (http://lesswrong.com/)
 - science
     + [Science Seeker] (http://www.scienceseeker.org/)
+
 people
 
 - [Scott Aaronson] (http://www.scottaaronson.com/blog/)
