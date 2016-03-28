@@ -26,5 +26,7 @@ people
 - [John Baez] (http://math.ucr.edu/home/baez/)
 - [Matt Baker] (https://mattbakerblog.wordpress.com/)
 - [Timothy Gowers] (https://gowers.wordpress.com/)
+- [Brian Hayes | bit-player] (http://bit-player.org/)
 - [Izabella Laba] (https://ilaba.wordpress.com/about/)
+- [Paul Lutus] (http://arachnoid.com/)
 - [Terry Tao] (https://terrytao.wordpress.com/)
