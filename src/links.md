@@ -4,7 +4,7 @@ title: links
 permalink: /links/
 ---
 
-feed
+**feed**
 
 - mathematics
     + [Aleph Zero Categorical] (http://blog.jpolak.org/)
@@ -12,17 +12,14 @@ feed
     + [The Geomblog] (http://blog.geomblog.org/)
     + [mathbabe] (http://mathbabe.org)
     + [The n-Category Café] (https://golem.ph.utexas.edu/category/)
-    + [nLab] (https://ncatlab.org/nlab/show/HomePage)
     + [Rigorous Trivialities] (https://rigtriv.wordpress.com/)
     + [Secret Blogging Seminar] (https://sbseminar.wordpress.com/)
 - planet
     + [The Azimuth Project] (http://www.azimuthproject.org/azimuth/show/HomePage)
-- rationality
-    + [LessWrong] (http://lesswrong.com/)
 - science
     + [Science Seeker] (http://www.scienceseeker.org/)
 
-people
+**people**
 
 - [Scott Aaronson] (http://www.scottaaronson.com/blog/)
 - [John Baez] (http://math.ucr.edu/home/baez/)
@@ -33,3 +30,12 @@ people
 - [Izabella Laba] (https://ilaba.wordpress.com/about/)
 - [Paul Lutus] (http://arachnoid.com/)
 - [Terry Tao] (https://terrytao.wordpress.com/)
+
+**resources**
+
+- mathematics
+    + [nLab] (https://ncatlab.org/nlab/show/HomePage)
+    + [THE MOST COMMON ERRORS IN UNDERGRADUATE MATHEMATICS] (http://www.math.vanderbilt.edu/~schectex/commerrs/)
+- rationality
+    + [LessWrong] (http://lesswrong.com/)
+
