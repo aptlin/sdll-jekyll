@@ -14,6 +14,11 @@ permalink: /links/
     + [The n-Category Café] (https://golem.ph.utexas.edu/category/)
     + [Rigorous Trivialities] (https://rigtriv.wordpress.com/)
     + [Secret Blogging Seminar] (https://sbseminar.wordpress.com/)
+- computer science
+    + [The Morning Paper] (http://blog.acolyer.org/)
+        
+    an interesting/influential/important paper from the world of CS every weekday morning, as selected by Adrian Colyer
+
 - planet
     + [The Azimuth Project] (http://www.azimuthproject.org/azimuth/show/HomePage)
 - science
@@ -36,6 +41,11 @@ permalink: /links/
 - mathematics
     + [nLab] (https://ncatlab.org/nlab/show/HomePage)
     + [THE MOST COMMON ERRORS IN UNDERGRADUATE MATHEMATICS] (http://www.math.vanderbilt.edu/~schectex/commerrs/)
+    + reading lists:
+        * [Annoying Precision reading recommendations](https://qchu.wordpress.com/reading-recommendations/)    
+        * [Books for beginning research](https://burttotaro.wordpress.com/2010/10/19/books-for-beginning-research/)
+        * [Chicago undergraduate mathematics bibliography](https://www.ocf.berkeley.edu/~abhishek/chicmath.htm)
+        * [PROMYS reading list](http://www.promys.org/resources/reading-list
 - rationality
     + [LessWrong] (http://lesswrong.com/)
 
