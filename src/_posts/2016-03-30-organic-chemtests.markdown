@@ -24,7 +24,6 @@ The standard A-level curriculum in the UK requires the knowledge of tests with t
 * <a href="#carboxy" >warm carboxylic acid with a few drops of concentrated sulphuric acid</a>
 * <a href="#nani" >sodium nitrite and dilute hydrochloric acid followed by an alkaline solution of phenol in ice-cold condition</a>
 * <a href="#iodo" >iodine in alkaline solution</a>
-* <a href="#lialh" >lithium tetrahydridoaluminate in dry ether</a>
 
 Let's go over them one by one:
 
