@@ -5,8 +5,8 @@
     <description></description>
     <link>https://sdll.github.io//</link>
     <atom:link href="https://sdll.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Apr 2016 22:43:05 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Apr 2016 22:43:05 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Apr 2016 06:44:07 +0000</pubDate>
+    <lastBuildDate>Mon, 04 Apr 2016 06:44:07 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -42,11 +42,11 @@
 &lt;table border=&quot;0&quot; cellpadding=&quot;5&quot;&gt;
 &lt;tr&gt;
 &lt;td align=&quot;center&quot; valign=&quot;center&quot;&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/dnph0.png&quot; alt=&quot;DNPH structural formula&quot; /&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/dnph0.png&quot; width=&quot;50%&quot; alt=&quot;DNPH structural formula&quot; /&gt;
 &lt;/center&gt;
 &lt;/td&gt;
 &lt;td align=&quot;center&quot; valign=&quot;center&quot;&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/dnph.png&quot; alt=&quot;DNPH ball-and-stick model&quot; /&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/dnph.png&quot; width=&quot;50%&quot;alt=&quot;DNPH ball-and-stick model&quot; /&gt;
 &lt;/center&gt;
 &lt;/td&gt;
 &lt;/tr&gt;

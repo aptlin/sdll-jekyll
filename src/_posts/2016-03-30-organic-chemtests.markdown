@@ -36,11 +36,11 @@ Let's go over them one by one:
     <table border="0" cellpadding="5">
     <tr>
     <td align="center" valign="center">
-    <center><img src="{{site.baseurl}}/assets/dnph0.png" alt="DNPH structural formula" />
+    <center><img src="{{site.baseurl}}/assets/dnph0.png" width="50%" alt="DNPH structural formula" />
     </center>
     </td>
     <td align="center" valign="center">
-    <center><img src="{{site.baseurl}}/assets/dnph.png" alt="DNPH ball-and-stick model" />
+    <center><img src="{{site.baseurl}}/assets/dnph.png" width="50%"alt="DNPH ball-and-stick model" />
     </center>
     </td>
     </tr>
