@@ -7,6 +7,8 @@ permalink: /links/
 **feed**
 
 - mathematics
+
+    + [MATHRES] (https://github.com/sdll/MATHRES/tree/master/READING%20LIST)
     + [Aleph Zero Categorical] (http://blog.jpolak.org/)
     + [Annoying Precision] (https://qchu.wordpress.com/)
     + [Complex Projective 4-Space] (https://cp4space.wordpress.com/)
@@ -51,11 +53,11 @@ permalink: /links/
 - [Paul Lutus] (http://arachnoid.com/)
 - [Terry Tao] (https://terrytao.wordpress.com/)
 - [Burt Totaro] (https://burttotaro.wordpress.com/): 
-
     the blog about geometry — or math more generally, both the subject and the ecosystem
 
 - [Bret Victor] (http://worrydream.com/)
 - [Eliezer Yudkowsky] (http://www.yudkowsky.net/)
+- [Alexey Zaslavsky] (http://www.geometry.ru/persons/zaslavsky/zaslavsky.htm)
 
 **resources**
 
