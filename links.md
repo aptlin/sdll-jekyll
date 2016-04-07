@@ -20,6 +20,7 @@ permalink: /links/
     + [Secret Blogging Seminar] (https://sbseminar.wordpress.com/) 
 
 - computer science
+
     + [The Morning Paper] (http://blog.acolyer.org/)
     + data visualisation:
 
@@ -61,6 +62,7 @@ permalink: /links/
 **resources**
 
 - mathematics
+
     + [nLab] (https://ncatlab.org/nlab/show/HomePage)
     + [MATHRES] (https://github.com/sdll/MATHRES/tree/master/READING%20LIST)
     + [MCCME] (http://www.mccme.ru/)
@@ -72,6 +74,7 @@ permalink: /links/
         * [PROMYS reading list](http://www.promys.org/resources/reading-list)
 
 - planet
+
     + [The Azimuth Project] (http://www.azimuthproject.org/azimuth/show/HomePage)
     + [What Can a Technologist Do About Climate Change?] (http://worrydream.com/ClimateChange/)
 
