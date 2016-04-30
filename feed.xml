@@ -5,9 +5,95 @@
     <description></description>
     <link>https://sdll.github.io//</link>
     <atom:link href="https://sdll.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Apr 2016 08:09:43 +0000</pubDate>
-    <lastBuildDate>Thu, 07 Apr 2016 08:09:43 +0000</lastBuildDate>
+    <pubDate>Sat, 30 Apr 2016 16:46:23 +0000</pubDate>
+    <lastBuildDate>Sat, 30 Apr 2016 16:46:23 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>INTRODUCTION TO REDOX</title>
+        <description>&lt;p&gt;Redox reactions are ubiquitous and important in the evolution of species and their environment, from animal respiration to weathering of rocks. The knowledge of how redox reactions work is indispensable for understanding the world around us.&lt;/p&gt;
+
+&lt;h1&gt;Definitions&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Redox&lt;/strong&gt; stands for &lt;strong&gt;reduction&lt;/strong&gt; and &lt;strong&gt;oxidation&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reduction&lt;/strong&gt; involves the gain of electrons and corresponds to the decrease in the &lt;strong&gt;oxidation number&lt;/strong&gt; of an atom or ion. The electron density increases, and the proness of an atom or ion to the addition of another electron is &lt;em&gt;reduced&lt;/em&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Oxidation&lt;/strong&gt; involves the loss of electrons and is associated with the increase in the &lt;strong&gt;oxidation number&lt;/strong&gt;. When an atom or ion is oxidised, its electon density decreases and it becomes more positive.&lt;/p&gt;
+
+&lt;p&gt;An &lt;strong&gt;oxidation number&lt;/strong&gt;, also called an &lt;em&gt;oxidation state&lt;/em&gt; is a number assigned to an atom or ion to describe its relative state of oxidation or reduction. The oxidation numbers are assigned according to a set of rules, most commonly &lt;a href=&quot;http://goldbook.iupac.org/O04365.html&quot;&gt;given by the IUPAC&lt;/a&gt;, and represent an accounting tool for the chemical behaviour of the species. &lt;/p&gt;
+
+&lt;h1&gt;Oxidation numbers and Stoichiometry&lt;/h1&gt;
+
+&lt;p&gt;Oxidation and reduction reactions are linked by definition. When a compound is reduced, something must be oxidised, and vice versa. Using oxidation numbers it is possible to balance the equation by looking at how they change.&lt;/p&gt;
+
+&lt;p&gt;The procedure is the following for an unbalanced equation given:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Identify the elements which oxidation numbers change and note the extent of change.&lt;/li&gt;
+&lt;li&gt;Increase the quantity of the corresponding element so that the product of the moles of the compound with the change of the oxidation state is equal to the lowest common multiple of all changes in the oxidation state.&lt;/li&gt;
+&lt;li&gt;Balance for oxygen and hydrogen.&lt;/li&gt;
+&lt;li&gt;Check that the overall charges on both sides of the equation are equal.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Oxidising and Reducing Agents&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Oxidising agents&lt;/strong&gt;, also called &lt;em&gt;oxidants&lt;/em&gt;, are chemical reagents which can oxidise other substances while themselves being reduced. They are potent electon acceptors, and either steal electons from other compounds or increase their oxidation numbers. &lt;/p&gt;
+
+&lt;p&gt;Some reagents can change colour in the oxidation reactions, and hence they can be used in the detection of oxidising agents. For instance, iodide ions are readily oxidised to iodine by suitable oxidation agents. Iodine is very slightly soluble in water, but nevertheless dissolves in a solution containing iodide ions to form the tri-iodide ion, I$^{-}_3$(aq):&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/assets/triiodo.png&quot; width=&quot;50%&quot;alt=&quot;Tri-iodide ion&quot; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;A reagent presented as an iodine solution is usually solid iodine in KI(aq) which forms KI$_3$ (aq). The triiodide ion is yellow-brown which is responsible for the colour change when iodine is produced from iodide ions. &lt;/p&gt;
+
+&lt;p&gt;This test can be made more sensitive by the addition of starch, which forms a deep blue-black complex with iodine. &lt;/p&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;5&quot;&gt;
+    &lt;tr&gt;
+    &lt;td align=&quot;center&quot; valign=&quot;center&quot;&gt;
+    &lt;center&gt;&lt;img src=&quot;/assets/starch.png&quot; alt=&quot;starch complex with iodine&quot; /&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+     Source: &lt;a href=&quot;http://knowledgepayback.blogspot.co.uk/2012/04/iodimetric-iodometric-titrations.html&quot;&gt; Atul Singh Arora &lt;/a&gt;
+     &lt;br /&gt;
+     Structure of the starch complex with iodine. The amylose chain forms a helix around the iodine units.
+    &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Reducing agents&lt;/strong&gt;, also called &lt;em&gt;reductants&lt;/em&gt;, are chemical reagents which can reduce other substances while themselves being oxidised. They easily give up their electrons or decrease the oxidation number of the reduced compound. &lt;/p&gt;
+
+&lt;p&gt;Some compounds change colour when they interact with reducing agents. One of the most common examples is discolouration of purple MnO$_4^{2-}$ to a very pink solution of Mn$^{2+}$ ions. Another one is the change of dichromate orange solution to the green solution of Cr$^{3+}$.&lt;/p&gt;
+
+&lt;h1&gt;Redox Titrations&lt;/h1&gt;
+
+&lt;p&gt;In redox titrations, oxidising and reducing agents react with each other. The common aim of titrations is to measure the exact quantity of the oxidising or reducing agent required to react completely with some other reagent.&lt;/p&gt;
+
+&lt;h2&gt;Measuring reducing agents&lt;/h2&gt;
+
+&lt;p&gt;Potassium manganate (VII) is usually used for titration of reducing agents due to its ease of handling and stability. In acidic solution it reacts according to the following half-equation:&lt;/p&gt;
+
+&lt;p&gt;$ MnO_4 (aq) + 8H^{+} (aq) + 5e^{-} \to Mn^{2+} (aq) + 4H_2O$  &lt;/p&gt;
+
+&lt;p&gt;With the potassium manganate (VII) in the burette, the purple permanganate ions turn to pale pink Mn$^{2+}$ which appear colourless in a dilute solution. The acidic conditions are critical, since the titre value would be too high and a brown precipitate of MnO$_2$ would form if insufficient acid is added. This is due to the proneness of permanganate ions to successive reduction in a neutral medium.&lt;/p&gt;
+
+&lt;h2&gt;Measuring oxidizing agents&lt;/h2&gt;
+
+&lt;p&gt;The common method involves the titration of the oxidising agent in excess potassium iodide with sodium thiosulphate.   &lt;/p&gt;
+
+&lt;p&gt;The oxidising agent converts the iodide ions in the solution into iodine, which forms a yellow-brown solution. The amount of iodine produced is then determined by titration with sodium thiosulphate, $Na_{2} S_{2} O_{3}$, which reduces iodine back to colourless iodide solution while itself being converted into sodium tetrathionate, $Na_2S_4O_6$. Near the end point the solution is pale yellow, and starch is used to intensify the ultimate colour change from blue-black to colourless. &lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 Apr 2016 00:00:00 +0000</pubDate>
+        <link>https://sdll.github.io//blog/2016/04/30/chemrev/</link>
+        <guid isPermaLink="true">https://sdll.github.io//blog/2016/04/30/chemrev/</guid>
+        
+        
+        <category>sci</category>
+        
+        <category>sci.chem</category>
+        
+      </item>
     
       <item>
         <title>COMMON QUALITATIVE TESTS IN ORGANIC CHEMISTRY</title>
