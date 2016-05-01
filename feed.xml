@@ -5,9 +5,82 @@
     <description></description>
     <link>https://sdll.github.io//</link>
     <atom:link href="https://sdll.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Apr 2016 16:59:19 +0000</pubDate>
-    <lastBuildDate>Sat, 30 Apr 2016 16:59:19 +0000</lastBuildDate>
+    <pubDate>Sun, 01 May 2016 01:03:42 +0000</pubDate>
+    <lastBuildDate>Sun, 01 May 2016 01:03:42 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>TRANSITION METALS | COLOURS OF COMPLEXES</title>
+        <description>&lt;p&gt;Transition metal compounds and complexes appear in a rich variety of colours. The juiciness of their colours and vibrant hues make the oil paint one of the most versatile tools for art. But why do some species containing d-block elements have any colour at all?&lt;/p&gt;
+
+&lt;p&gt;When ligands approach a bare metal ion, they interact with the d-subshell as repulsion between the electrons in the ion and ligands increases, pushing the d-orbitals to higher energy levels. The degree of the push depends on the number of electrons in the outer shell of the ion, the number of interacting ligands and the shape of the resultant complex.   &lt;/p&gt;
+
+&lt;table style=&quot;margin-top: -25px;&quot; cellpadding=&quot;5&quot;&gt;
+    &lt;tr&gt;
+    &lt;td align=&quot;center&quot; valign=&quot;center&quot;&gt;
+    &lt;center&gt;&lt;img width=&quot;100%&quot; src=&quot;/assets/ligand.jpg&quot; alt=&quot;ligand splits d-subshell&quot; /&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The splitting energy $\Delta$ in most complexes corresponds to the energy of light in the visible spectrum. Therefore, electrons in the partially filled d-subshell can be promoted to higher eigenstates by absorbing the energy $\Delta$, which implies that the complementary colour is either reflected or transmitted through the material to yield a characteristic colour.&lt;/p&gt;
+
+&lt;p&gt;The table of the most common transition metals and their corresponding behavior on addition of the hydroxide and ammonia ligands is given below:&lt;/p&gt;
+
+&lt;table class=&quot;tablch&quot;&gt;
+&lt;tr&gt;&lt;td&gt;Metal&lt;/td&gt;
+&lt;td&gt;[M(H$_2$O)$_6$]$^{n+}$ (aq)&lt;/td&gt;
+&lt;td&gt;Adding OH$^-$(aq) / Excess&lt;/td&gt;
+&lt;td&gt;Adding NH$_3$(aq) / Excess&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Fe$^{2+}$&lt;/td&gt;
+&lt;td&gt;Pale Green&lt;/td&gt;
+&lt;td&gt;Fe(H$_2$O)$_4$(OH)$_2$ (s)&lt;br/&gt;Dark green ppt darkens to red/brown Fe$^{3+}$  /  N.C. &lt;/td&gt;
+&lt;td&gt;Fe(H$_2$O)$_4$(OH)$_2$ (s)&lt;br/&gt;Dark green ppt darkens to red/brown Fe$^{3+}$  / N.C.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Fe$^{3+}$&lt;/td&gt;
+&lt;td&gt;[Fe(H$_2$O)$_6$]$^{3+}$ violet $\to$ [Fe(H$_2$O)$_5$(OH)]$^{2+}$ yellow&lt;/td&gt;
+&lt;td&gt;Fe(H$_2$O)$_3$(OH)$_3$ (s)&lt;br/&gt;Red/brown ppt  / N.C.&lt;/td&gt;
+&lt;td&gt;Fe(H$_2$O)$_3$(OH)$_3$ (s)&lt;br/&gt;Red/brown ppt  / N. C. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ni$^{2+}$&lt;br/&gt;&lt;/td&gt;
+&lt;td&gt;Green&lt;/td&gt;
+&lt;td&gt;Ni(H$_2$O)$_4$(OH)$_2$ (s)&lt;br/&gt;Pale green ppt / N. C.&lt;/td&gt;
+&lt;td&gt;Ni(H$_2$O)$_4$(OH)$_2$ (s)&lt;br/&gt;Pale green ppt / redissolves to pale blue soln [Ni(NH$_3$)$_4$(H$_2$O)$_2$]$^{2+}$ &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cu$^{2+}$&lt;/td&gt;
+&lt;td&gt;Pale Blue&lt;/td&gt;
+&lt;td&gt;Cu(H$_2$O)$_4$(OH)$_2$­ (s)&lt;br/&gt;Blue ppt / N.C.&lt;/td&gt;
+&lt;td&gt;Cu(H$_2$O)$_4$(OH)$_2$ (s)&lt;br/&gt;Blue ppt / redissolves to deep blue soln [Cu(NH$_3$)$_4$(H$_2$O)$_2$]$^{2+}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Zn$^{2+}$&lt;/td&gt;
+&lt;td&gt;[Zn(H$_2$O)$_4$]$^{2+}$, Colourless&lt;/td&gt;
+&lt;td&gt;Zn(H$_2$O)$_2$(OH)$_2$ (s)&lt;br/&gt;white ppt/ redissolves to give [Zn(OH)$_4$]$^{2-}$&lt;/td&gt;
+&lt;td&gt;Zn(H$_2$O)$_2$(OH)$_2$ (s)&lt;br/&gt;white ppt / redissolves to [Zn(NH$_3$)$_4$]$^{2+}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cr$^{3+}$&lt;/td&gt;
+&lt;td&gt;Ruby/Purple/Green&lt;/td&gt;
+&lt;td&gt;Cr(H$_2$O)$_3$(OH)$_3$ (s)&lt;br/&gt;Green ppt  / redissolves to give[Cr(OH)$_6$]$^{3-}$ dark green soln&lt;/td&gt;
+    &lt;td&gt;Cr(H$_2$O)$_3$(OH)$_3$ (s)&lt;br/&gt;Green ppt  / lilac soln [Cr(NH$_3$)$_6$]3+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Mn$^{2+}$&lt;/td&gt;
+&lt;td&gt;Pale Pink&lt;/td&gt;
+&lt;td&gt;Mn(H$_2$O)$_4$(OH)$_2$ (s)&lt;br/&gt;Sandy ppt which darkens in air / N.C. &lt;/td&gt;
+&lt;td&gt;Mn(H$_2$O)$_4$(OH)$_2$ (s)&lt;br/&gt;Sandy ppt which darkens in air / N. C. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 30 Apr 2016 00:00:00 +0000</pubDate>
+        <link>https://sdll.github.io//blog/2016/04/30/trmet/</link>
+        <guid isPermaLink="true">https://sdll.github.io//blog/2016/04/30/trmet/</guid>
+        
+        
+        <category>sci</category>
+        
+        <category>sci.chem</category>
+        
+      </item>
     
       <item>
         <title>INTRODUCTION TO REDOX</title>
