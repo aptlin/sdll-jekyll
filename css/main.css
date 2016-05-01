@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 Menlo, Monaco, "Andale Mono", "lucida console", "Courier New";
+  font: 400 16px/1.5 "Helvetica";
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
