@@ -5,8 +5,8 @@
     <description></description>
     <link>https://sdll.github.io//</link>
     <atom:link href="https://sdll.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 May 2016 21:22:00 +0000</pubDate>
-    <lastBuildDate>Tue, 03 May 2016 21:22:00 +0000</lastBuildDate>
+    <pubDate>Tue, 03 May 2016 21:25:34 +0000</pubDate>
+    <lastBuildDate>Tue, 03 May 2016 21:25:34 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -28,7 +28,7 @@
 
 &lt;p&gt;The table of the most common transition metals and their corresponding behavior on addition of hydroxide and ammonia ligands is given below:&lt;/p&gt;
 
-&lt;table class=&quot;tablch&quot;&gt;
+&lt;table class=&quot;tablch&quot; width=&quot;100%&quot;&gt; 
 &lt;tr&gt;&lt;td&gt;Metal&lt;/td&gt;
 &lt;td&gt;[M(H$_2$O)$_6$]$^{n+}$ (aq)&lt;/td&gt;
 &lt;td&gt;Adding OH$^-$(aq) /&lt;br/&gt; Excess&lt;/td&gt;
