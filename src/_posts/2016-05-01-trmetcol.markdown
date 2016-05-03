@@ -74,7 +74,7 @@ The table can be visualised as follows:
 <table style="margin-top: -25px;" cellpadding="5">
     <tr>
     <td align="center" valign="center">
-    <center><img width="100%" src="{{site.baseurl}}/assets/per.svg" alt="colours of transition metal complexes with water, hydroxide and ammonia ligands" />
+    <center><img width="100%" src="{{site.baseurl}}/assets/per.png" alt="colours of transition metal complexes with water, hydroxide and ammonia ligands" />
     </center>
     </td>
     </tr>
