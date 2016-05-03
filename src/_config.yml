@@ -18,7 +18,6 @@ markdown: redcarpet
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
 permalink: /blog/:year/:month/:day/:title/
-paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 plugins_dir: _plugins
 # Plugins
@@ -27,5 +26,6 @@ category_title_prefix: ''
 # RSS
 subscribe_rss: /feed.xml
 
-gems: [jekyll-paginate]
+gems:
+- jekyll-sitemap
 titlecase: false
