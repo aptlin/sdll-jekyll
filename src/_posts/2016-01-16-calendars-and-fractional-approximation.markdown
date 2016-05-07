@@ -125,17 +125,22 @@ $ [365; 4, 7, 1, 3, 40, 2, 3, 5]$
 Let's calculate all the fit fractions.
 
 $ \frac{p\_0}{q\_0}=365$
+
 $ \frac{p\_1}{q\_1}=365+\frac{1}{4}=365\frac{1}{4}$
+
 $ \frac{p\_2}{q\_2}=365+\frac{1}{4+\frac{1}{7}}=365\frac{7}{29}$
+
 $ \frac{p\_3}{q\_3}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1}}}=365\frac{8}{33}$
+
 $ \frac{p\_4}{q\_4}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3}}}}=365\frac{31}{128}$
+
 $ \frac{p\_5}{q\_5}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40}}}}}=365\frac{1248}{5153}$
 
-$ \frac{p\_6}{q\_6}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2}}}}}}=365\frac{2527}{10434}$
+$ \frac{p\_7}{q\_7}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2}}}}}}=365\frac{2527}{10434}$
 
-$ \frac{p\_6}{q\_6}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2+\frac{1}{3}}}}}}}=365\frac{8829}{36455}$
+$ \frac{p\_8}{q\_8}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2+\frac{1}{3}}}}}}}=365\frac{8829}{36455}$
 
-$ \frac{p\_6}{q\_6}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2+\frac{1}{3+\frac{1}{5}}}}}}}}=365\frac{46672}{192709}$
+$ \frac{p\_9}{q\_9}=365+\frac{1}{4+\frac{1}{7+\frac{1}{1+\frac{1}{3+\frac{1}{40+\frac{1}{2+\frac{1}{3+\frac{1}{5}}}}}}}}=365\frac{46672}{192709}$
 
 We obtain the following table:
 
@@ -150,32 +155,51 @@ We obtain the following table:
     <td>1</td>
         <td>1 leap year for every 4</td>
     <td>365 days 6 hours 0 minutes 0 seconds</td>
-    <td>-11 min 15 s</td>       
+    <td>+ 11 min 15 s</td>       
 </tr>
 <tr>
     <td>2</td>
     <td>7 per 29</td>
     <td>365 d 5 h 47 min 35 s</td>      
-    <td>+ 1 min 10 s</td>
+    <td>- 1 min 10 s</td>
 </tr>
 <tr>
     <td>3</td>
     <td>8 per 33</td>
     <td>365 d 5 h 49 min 05 s</td>      
-    <td>- 20 s</td>
+    <td>+ 20 s</td>
 </tr>
 <tr>
     <td>4</td>
     <td>31 per 128</td>
     <td>365 d 5 h 48 min 45 s</td>      
-    <td>+ 0.13 s</td>
+    <td>- 0.13 s</td>
 </tr>
 <tr>
     <td>5</td>
     <td>1248 per 5153</td>
     <td>365 d 5 h 48 min 45 s</td>      
-    <td>+ 0.13 s</td>
+    <td>+ $1.4 \times 10^{-3}$ s</td>
 </tr>
+<tr>
+    <td>6</td>
+    <td>2527 per 10434</td>
+    <td>365 d 5 h 48 min 45 s</td>      
+    <td>- $2.2 \times 10^{-4}$ s</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>8829 per 36455</td>
+    <td>365 d 5 h 48 min 45 s</td>      
+    <td>+ $1.2 \times 10^{-5}$ s</td>
+</tr>
+<tr>
+    <td>8</td>
+    <td>46672 per 192709</td>
+    <td>365 d 5 h 48 min 45 s</td>      
+    <td>- $4.5 \times 10^{-7}$ s</td>
+</tr>
+
 </table>
 
 Changes in the optimality of all the other approximations are insignificant up to a second. Each new fit fraction gives a better approximation of the tropical year. In fact, the approximation number 1 is a backbone of the Julian calendar. With the help of Sosigenes of Alexandria, Julius Caesar ordered the adoption of a calendar with an added day once in four years in the Roman Empire. Omar Khayyam, a prolific mathematician, astronomer, philosopher and poet, suggested the adoption of the more accurate calendar with 8 leap years per 33-year cycle.
